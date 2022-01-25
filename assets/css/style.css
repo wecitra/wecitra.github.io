@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&family=Signika:wght@300&family=Slackey&display=swap");
+
+.section-1, .section-2, .projects {
+  padding: 130px 0;
+}
+
+.title {
+  font-family: 'Slackey', cursive;
+  color: #006877;
+  text-shadow: 0.0px 10.0px 0.02px #FFF8EE, 9.8px 2.1px 0.02px #FFF8EE, 4.2px -9.1px 0.02px #FFF8EE, -8.0px -6.0px 0.02px #FFF8EE, -7.6px 6.5px 0.02px #FFF8EE, 4.8px 8.8px 0.02px #FFF8EE, 9.6px -2.8px 0.02px #FFF8EE, -0.7px -10.0px 0.02px #FFF8EE, -9.9px -1.5px 0.02px #FFF8EE, -3.5px 9.4px 0.02px #FFF8EE, 8.4px 5.4px 0.02px #FFF8EE, 7.1px -7.0px 0.02px #FFF8EE, -5.4px -8.4px 0.02px #FFF8EE, -9.4px 3.5px 0.02px #FFF8EE, 1.4px 9.9px 0.02px #FFF8EE, 10.0px 0.8px 0.02px #FFF8EE, 2.9px -9.6px 0.02px #FFF8EE, -8.7px -4.8px 0.02px #FFF8EE, -6.6px 7.5px 0.02px #FFF8EE, 5.9px 8.0px 0.02px #FFF8EE, 9.1px -4.1px 0.02px #FFF8EE, -2.1px -9.8px 0.02px #FFF8EE, -10.0px -0.1px 0.02px #FFF8EE, -2.2px 9.8px 0.02px #FFF8EE, 9.1px 4.2px 0.02px #FFF8EE, 6.1px -8.0px 0.02px #FFF8EE, -6.5px -7.6px 0.02px #FFF8EE, -8.8px 4.7px 0.02px #FFF8EE, 2.7px 9.6px 0.02px #FFF8EE, 10.0px -0.6px 0.02px #FFF8EE, 1.5px -9.9px 0.02px #FFF8EE, -9.3px -3.6px 0.02px #FFF8EE, -5.5px 8.4px 0.02px #FFF8EE, 7.0px 7.2px 0.02px #FFF8EE, 8.5px -5.3px 0.02px #FFF8EE, -3.4px -9.4px 0.02px #FFF8EE, -9.9px 1.3px 0.02px #FFF8EE, -0.8px 10.0px 0.02px #FFF8EE, 9.6px 2.9px 0.02px #FFF8EE, 4.9px -8.7px 0.02px #FFF8EE, -7.5px -6.7px 0.02px #FFF8EE, -8.1px 5.9px 0.02px #FFF8EE, 4.0px 9.2px 0.02px #FFF8EE, 9.8px -2.0px 0.02px #FFF8EE, 0.2px -10.0px 0.02px #FFF8EE, -9.7px -2.3px 0.02px #FFF8EE, -4.3px 9.0px 0.02px #FFF8EE, 7.9px 6.1px 0.02px #FFF8EE;
+}
+
+.hero .section-1 {
+  background-image: url("../img/attractive-brunette-asian-woman-holds-disposable-cup-coffee-points-aside-shows-blank-space-advertises-place-promotion-dressed-casual-clothes-suggests-visit-cafe-grab-some-drink.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .section-2 {
+  background-color: #96CEB4;
+}
+
+.hero .section-2 p {
+  font-family: 'Signika', sans-serif;
+}
+
+.btn {
+  font-family: 'Potta One', cursive;
+  background-color: #006877;
+  border: #006877 solid 3px;
+  color: #FFF8EE;
+  font-size: 20px;
+  transition: .3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #FFF8EE;
+  color: #006877;
+}
+
+.skills .section-1 {
+  background-color: #6AB3CA;
+}
+
+.skills .section-1 .progress-bar {
+  background-color: #FFEF60;
+  border-radius: 0 !important;
+}
+
+.skills .section-1 h6 {
+  color: #FFF8EE;
+  font-family: 'Signika', sans-serif;
+}
+
+.skills .section-2 {
+  background-color: #D9534F;
+}
+
+.projects {
+  background-color: #FFAD60;
+}
+
+.projects .card {
+  border: none;
+  border-radius: 0px;
+  padding: 12px;
+}
+
+.projects .card .card-img-top {
+  border-radius: 0px;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.projects .card .card-text {
+  font-family: 'Signika', sans-serif;
+}
+
+.projects .card:hover .card-img-top {
+  opacity: .8;
+}
+
+@media screen and (max-width: 768px) {
+  .hero .section-1 {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero .section-1 {
+    height: 300px;
+  }
+
+  .skills .section-2 ul li {
+    display: block;
+  }
+
+  .skills .section-2 ul li span.time::before {
+    content: " | ";
+  }
+}
+
+/* projects - Owl Carousel */
+.projects .owl-carousel .owl-nav button {
+  position: absolute;
+  color: #FFF8EE;
+  left: -30px;
+  top: 50%;
+}
+
+.projects .owl-carousel .owl-nav button.owl-next {
+  left: auto;
+  right: -30px;
+}
+
+.projects .owl-carousel .owl-nav button:hover {
+  color: #FFEF60;
+}
+
+.projects .owl-carousel .owl-dots button {
+  width: 10px;
+  height: 10px;
+  background: rgb(223, 223, 223);
+  display: inline-block;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.projects .owl-carousel .owl-dots button.active {
+  background: #6AB3CA;
+}
+
+.projects .owl-carousel .owl-dots {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* EXPERIENCES */
+
+.stepprogress {
+  position: relative;
+  padding-left: 45px;
+  list-style: none;
+}
+
+.stepprogress::before {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 10px;
+  height: 100%;
+  border-left: 2px solid #FFF8EE;
+}
+
+.stepprogress-item {
+  position: relative;
+  counter-increment: list;
+  color: #FFF8EE;
+}
+
+.stepprogress-item:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.stepprogress-item::before {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: -30px;
+  height: 100%;
+  width: 10px;
+}
+
+.stepprogress-item::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: -37px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #96CEB4;
+}
+
+.experience-title {
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  color: #FFEF60;
+}
+
+.experience-title .place,
+.experience-title .place a {
+  color: #6AB3CA;
+  text-decoration: none;
+}
+
+.experience-title .place a:hover {
+  color: var(--tertiary);
+}
+
+.experience-title .year {
+  color: #96CEB4;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=style.css.map */
