@@ -107,6 +107,10 @@
   .hero .section-1 {
     height: 610px;
   }
+
+  .title {
+    text-shadow: 0.0px 5.0px 0.02px var(--secondary), 9.8px 2.1px 0.02px var(--secondary), 4.2px -9.1px 0.02px var(--secondary), -8.0px -6.0px 0.02px var(--secondary), -7.6px 6.5px 0.02px var(--secondary), 4.8px 8.8px 0.02px var(--secondary), 9.6px -2.8px 0.02px var(--secondary), -0.7px -5.0px 0.02px var(--secondary), -9.9px -1.5px 0.02px var(--secondary), -3.5px 9.4px 0.02px var(--secondary), 8.4px 5.4px 0.02px var(--secondary), 7.1px -7.0px 0.02px var(--secondary), -5.4px -8.4px 0.02px var(--secondary), -9.4px 3.5px 0.02px var(--secondary), 1.4px 9.9px 0.02px var(--secondary), 5.0px 0.8px 0.02px var(--secondary), 2.9px -9.6px 0.02px var(--secondary), -8.7px -4.8px 0.02px var(--secondary), -6.6px 7.5px 0.02px var(--secondary), 5.9px 8.0px 0.02px var(--secondary), 9.1px -4.1px 0.02px var(--secondary), -2.1px -9.8px 0.02px var(--secondary), -5.0px -0.1px 0.02px var(--secondary), -2.2px 9.8px 0.02px var(--secondary), 9.1px 4.2px 0.02px var(--secondary), 6.1px -8.0px 0.02px var(--secondary), -6.5px -7.6px 0.02px var(--secondary), -8.8px 4.7px 0.02px var(--secondary), 2.7px 9.6px 0.02px var(--secondary), 5.0px -0.6px 0.02px var(--secondary), 1.5px -9.9px 0.02px var(--secondary), -9.3px -3.6px 0.02px var(--secondary), -5.5px 8.4px 0.02px var(--secondary), 7.0px 7.2px 0.02px var(--secondary), 8.5px -5.3px 0.02px var(--secondary), -3.4px -9.4px 0.02px var(--secondary), -9.9px 1.3px 0.02px var(--secondary), -0.8px 5.0px 0.02px var(--secondary), 9.6px 2.9px 0.02px var(--secondary), 4.9px -8.7px 0.02px var(--secondary), -7.5px -6.7px 0.02px var(--secondary), -8.1px 5.9px 0.02px var(--secondary), 4.0px 9.2px 0.02px var(--secondary), 9.8px -2.0px 0.02px var(--secondary), 0.2px -5.0px 0.02px var(--secondary), -9.7px -2.3px 0.02px var(--secondary), -4.3px 9.0px 0.02px var(--secondary), 7.9px 6.1px 0.02px var(--secondary);
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -120,6 +124,10 @@
 
   .skills .section-2 ul li span.time::before {
     content: " | ";
+  }
+
+  .title {
+    text-shadow: 0.0px 3.0px 0.02px var(--secondary), 9.8px 2.1px 0.02px var(--secondary), 4.2px -9.1px 0.02px var(--secondary), -8.0px -6.0px 0.02px var(--secondary), -7.6px 6.5px 0.02px var(--secondary), 4.8px 8.8px 0.02px var(--secondary), 9.6px -2.8px 0.02px var(--secondary), -0.7px -3.0px 0.02px var(--secondary), -9.9px -1.5px 0.02px var(--secondary), -3.5px 9.4px 0.02px var(--secondary), 8.4px 5.4px 0.02px var(--secondary), 7.1px -7.0px 0.02px var(--secondary), -5.4px -8.4px 0.02px var(--secondary), -9.4px 3.5px 0.02px var(--secondary), 1.4px 9.9px 0.02px var(--secondary), 3.0px 0.8px 0.02px var(--secondary), 2.9px -9.6px 0.02px var(--secondary), -8.7px -4.8px 0.02px var(--secondary), -6.6px 7.5px 0.02px var(--secondary), 5.9px 8.0px 0.02px var(--secondary), 9.1px -4.1px 0.02px var(--secondary), -2.1px -9.8px 0.02px var(--secondary), -3.0px -0.1px 0.02px var(--secondary), -2.2px 9.8px 0.02px var(--secondary), 9.1px 4.2px 0.02px var(--secondary), 6.1px -8.0px 0.02px var(--secondary), -6.5px -7.6px 0.02px var(--secondary), -8.8px 4.7px 0.02px var(--secondary), 2.7px 9.6px 0.02px var(--secondary), 3.0px -0.6px 0.02px var(--secondary), 1.5px -9.9px 0.02px var(--secondary), -9.3px -3.6px 0.02px var(--secondary), -5.5px 8.4px 0.02px var(--secondary), 7.0px 7.2px 0.02px var(--secondary), 8.5px -5.3px 0.02px var(--secondary), -3.4px -9.4px 0.02px var(--secondary), -9.9px 1.3px 0.02px var(--secondary), -0.8px 3.0px 0.02px var(--secondary), 9.6px 2.9px 0.02px var(--secondary), 4.9px -8.7px 0.02px var(--secondary), -7.5px -6.7px 0.02px var(--secondary), -8.1px 5.9px 0.02px var(--secondary), 4.0px 9.2px 0.02px var(--secondary), 9.8px -2.0px 0.02px var(--secondary), 0.2px -3.0px 0.02px var(--secondary), -9.7px -2.3px 0.02px var(--secondary), -4.3px 9.0px 0.02px var(--secondary), 7.9px 6.1px 0.02px var(--secondary);
   }
 }
 
