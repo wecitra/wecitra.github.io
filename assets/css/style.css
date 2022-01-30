@@ -168,6 +168,17 @@
   transform: translateX(-50%);
 }
 
+.projects .card-body a {
+  text-decoration: none;
+  color: var(--quaternary);
+}
+
+.projects .card-body p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* EXPERIENCES */
 
 .stepprogress {
