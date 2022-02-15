@@ -105,7 +105,7 @@
 
 @media screen and (max-width: 768px) {
   .hero .section-1 {
-    height: 610px;
+    height: 550px;
   }
 
   .title {
@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 576px) {
   .hero .section-1 {
-    height: 320px;
+    height: 350px;
   }
 
   .skills .section-2 ul li {

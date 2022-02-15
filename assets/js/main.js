@@ -30,10 +30,14 @@ const sr = ScrollReveal({
 sr.reveal(`.btn, .carousel-wrap`, {
     origin: 'bottom',
     interval: 200,
-})
+});
 
-
-sr.reveal(`.hero-text, .title, .skill, .stepprogress`, {
+sr.reveal(`.hero-text, .skill, .stepprogress`, {
     interval: 200,
     origin: 'left'
 })
+
+sr.reveal('.title', { 
+    rotate: { x: 45, y: 45, z: 0 },
+    duration: 1000
+});
