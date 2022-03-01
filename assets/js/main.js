@@ -41,3 +41,5 @@ sr.reveal('.title', {
     rotate: { x: 45, y: 45, z: 0 },
     duration: 1000
 });
+
+document.oncontextmenu = new Function("return false");
