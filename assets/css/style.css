@@ -11,6 +11,10 @@
   --octonary: #E7CBA9;
 }
 
+* {
+  user-select: none;
+}
+
 .section-1, .section-2 {
   padding: 130px 0;
 }
