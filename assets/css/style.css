@@ -15,6 +15,10 @@
   user-select: none;
 }
 
+.bg-yellow {
+  background: var(--tertiary);
+}
+
 .section-1, .section-2 {
   padding: 130px 0;
 }
@@ -76,31 +80,6 @@
   background-color: var(--septenary);
 }
 
-.projects {
-  background-color: var(--octonary);
-}
-
-.projects .card {
-  border: none;
-  border-radius: 0px;
-  padding: 12px;
-}
-
-.projects .card .card-img-top {
-  border-radius: 0px;
-	opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-
-.projects .card .card-text {
-  font-family: 'Signika', sans-serif;
-}
-
-.projects .card:hover .card-img-top {
-  opacity: .8;
-}
-
 @media screen and (max-width: 991px) {
   .hero .section-1 {
     height: 700px;
@@ -136,6 +115,31 @@
 }
 
 /* PORTFOLIOS - Owl Carousel */
+.projects {
+  background-color: var(--octonary);
+}
+
+.card {
+  border: none;
+  border-radius: 0px;
+  padding: 12px;
+}
+
+.card .card-img-top {
+  border-radius: 0px;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.card .card-text {
+  font-family: 'Signika', sans-serif;
+}
+
+.card:hover .card-img-top {
+  opacity: .8;
+}
+
 .projects .owl-carousel .owl-nav button {
   position: absolute;
   color: var(--secondary) !important;
@@ -252,4 +256,13 @@
 .experience-title .year {
   color: var(--tertiary);
   font-weight: normal;
+}
+
+.jumbotron {
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+.all-projects {
+  margin-top: -95px;
 }
