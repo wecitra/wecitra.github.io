@@ -27,7 +27,7 @@ const sr = ScrollReveal({
     reset: true,
 });
 
-sr.reveal(`.btn, .carousel-wrap`, {
+sr.reveal(`.btn, .carousel-wrap, .all-projects .card`, {
     origin: 'bottom',
     interval: 200,
 });

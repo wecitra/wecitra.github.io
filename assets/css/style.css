@@ -16,7 +16,7 @@
 }
 
 .bg-yellow {
-  background: var(--tertiary);
+  background: #FCE883;
 }
 
 .section-1, .section-2 {
@@ -261,6 +261,14 @@
 .jumbotron {
   padding-top: 50px;
   padding-bottom: 120px;
+}
+
+.btn-back {
+  background: var(--senary);
+  padding: 5px 7px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .all-projects {
