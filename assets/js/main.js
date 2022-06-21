@@ -1,3 +1,20 @@
+$.getJSON('assets/projects.json', function (result) {
+    let projects = result;
+    $.each(projects, function (i, data) {
+        $('#all-projects').append(`
+            <div class="card  item mb-3 shadow-sm" style="width: 400px;">
+                <img src="assets/img/portfolios/`+ data.image +`" class="card-img-top" width="100%" alt="`+ data.title +`">
+                <div class="card-body">
+                    <a href="`+ data.url +`" target="_BLANK" class="text-decoration-none text-dark">
+                        <h5 class="card-title fs-4">`+ data.title +`</h5>
+                    </a>
+                    <p class="card-text fs-5">`+ data.desc +`</p>
+                </div>
+            </div>
+        `)
+    })
+})
+
 $('.owl-carousel').owlCarousel({
     startPosition: 0,
     pagination: true,
@@ -37,9 +54,13 @@ sr.reveal(`.hero-text, .skill, .stepprogress`, {
     origin: 'left'
 })
 
-sr.reveal('.title', { 
-    rotate: { x: 45, y: 45, z: 0 },
+sr.reveal('.title', {
+    rotate: {
+        x: 45,
+        y: 45,
+        z: 0
+    },
     duration: 1000
 });
 
-document.oncontextmenu = new Function("return false");
+// document.oncontextmenu = new Function("return false");
