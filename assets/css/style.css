@@ -65,24 +65,6 @@
   box-shadow: var(--secondary) 0px 0px 0px;
 }
 
-.skills .section-1 {
-  background-color: var(--senary);
-}
-
-.skills .section-1 .progress-bar {
-  background-color: var(--tertiary);
-  border-radius: 0 !important;
-}
-
-.skills .section-1 h6 {
-  color: var(--secondary);
-  font-family: 'Signika', sans-serif;
-}
-
-.skills .section-2 {
-  background-color: var(--septenary);
-}
-
 @media screen and (max-width: 991px) {
   .hero .section-1 {
     height: 700px;
@@ -117,7 +99,69 @@
   }
 }
 
+/* SKILLS */ 
+
+.skills .section-1 {
+  background-color: var(--senary);
+}
+
+.skills .section-1 h6 {
+  color: var(--secondary);
+  font-family: 'Signika', sans-serif;
+}
+
+.list-skill{
+  /* width: 410px; */
+  margin:0 auto;
+}
+
+.list-skill ol {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 1em;
+  padding: 0;
+  counter-reset: li-counter;
+}
+
+.list-skill ol li {
+  position: relative;
+  margin-bottom: 1.5em;
+  padding: 0.5em;
+  background-color: var(--quinary);
+  padding-left: 40px;
+  font-weight: 450;
+}
+
+.list-skill li:hover {
+  box-shadow:inset -1em 0 var(--primary);
+  -webkit-transition: box-shadow 0.5s; /* For Safari 3.1 to 6.0 */
+  transition: box-shadow 0.5s;
+}
+  
+.list-skill ol li:before {
+  position: absolute;
+  top: -0.1em;
+  left: -0.5em;
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.4;
+  border-radius: 100%;
+  font-size: 1.9em;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: var(--primary);
+  transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  z-index: 99;
+  overflow: hidden;
+  content: counter(li-counter);
+  counter-increment: li-counter;
+}
+
 /* PORTFOLIOS - Owl Carousel */
+
 .projects {
   background-color: var(--octonary);
 }
@@ -191,6 +235,10 @@
 }
 
 /* EXPERIENCES */
+
+.skills .section-2 {
+  background-color: var(--septenary);
+}
 
 .stepprogress {
   position: relative;
@@ -304,54 +352,4 @@
   50% {
       border-color: transparent;
   }
-}
-
-.list-skill{
-  /* width: 410px; */
-  margin:0 auto;
-}
-
-.list-skill ol {
-  list-style-type: none;
-  margin: 0;
-  margin-left: 1em;
-  padding: 0;
-  counter-reset: li-counter;
-}
-
-.list-skill ol li {
-  position: relative;
-  margin-bottom: 1.5em;
-  padding: 0.5em;
-  background-color: var(--quinary);
-  padding-left: 40px;
-  font-weight: 450;
-}
-
-.list-skill li:hover {
-  box-shadow:inset -1em 0 var(--primary);
-  -webkit-transition: box-shadow 0.5s; /* For Safari 3.1 to 6.0 */
-  transition: box-shadow 0.5s;
-}
-  
-.list-skill ol li:before {
-  position: absolute;
-  top: -0.1em;
-  left: -0.5em;
-  width: 1.4em;
-  height: 1.4em;
-  line-height: 1.4;
-  border-radius: 100%;
-  font-size: 1.9em;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-  background-color: var(--primary);
-  transform: rotate(-10deg);
-  -ms-transform: rotate(-10deg);
-  -webkit-transform: rotate(-10deg);
-  z-index: 99;
-  overflow: hidden;
-  content: counter(li-counter);
-  counter-increment: li-counter;
 }
