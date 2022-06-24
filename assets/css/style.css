@@ -228,6 +228,7 @@
   color: var(--quaternary);
 }
 
+.projects .card-body .card-title,
 .projects .card-body p {
   white-space: nowrap;
   overflow: hidden;
