@@ -12,28 +12,52 @@
         "desc": "Simple travel log web that I made when trying out CodeIgniter."
     },
     {
-        "url": "https://wecitra.github.io/web-hosting/",
-        "image": "portfolio_5.png",
-        "title": "Hostingin",
-        "desc": "Web hosting using Bootstrap."
-    },
-    {
         "url": "https://wecitra.github.io/visual-identity-webpage/",
         "image": "portfolio_1.png",
         "title": "Web Visual Identity",
         "desc": "Web Visual Identity."
     },
     {
+        "url": "https://wecitra.github.io/creative-business",
+        "image": "portfolio_9.png",
+        "title": "Creative Business Landing Page",
+        "desc": "1st trying to make a landing page with Tailwind."
+    },
+    {
+        "url": "https://wecitra.github.io/essences-for-life-perfume-webpage/",
+        "image": "portfolio_10.png",
+        "title": "Essences for Life",
+        "desc": "2nd trying to make a landing page with Tailwind."
+    },
+    {
+        "url": "https://wecitra.github.io/web-hosting/",
+        "image": "portfolio_5.png",
+        "title": "Hostingin",
+        "desc": "Web hosting using Bootstrap."
+    },
+    {
+        "url": "https://wecitra.github.io/joke-maker/",
+        "image": "portfolio_11.png",
+        "title": "Joke Maker",
+        "desc": "Simple project built with API, JS & CSS."
+    },
+    {
+        "url": "https://wecitra.github.io/svt.tv/",
+        "image": "portfolio_12.png",
+        "title": "17's TV Dashboard",
+        "desc": "Trying to create a project with Tailwind plugin, Flowbit."
+    },
+    {
         "url": "https://www.figma.com/proto/U1KNM4ydys0DZwl6UJ5NOy/HabitsAppMockup?scaling=scale-down",
         "image": "portfolio_8.png",
         "title": "Habits Mobile App Mockup",
-        "desc": "<span class='text-danger'>&#9888 Under Development.</span>"
+        "desc": "Make it with the figma tool with a bit of seriousness."
     },
     {
         "url": "https://www.figma.com/proto/WbDj9Lu5p8T3tfXhfu3Rdh/Bronze-Portfolio-Web-Design?scaling=scale-down",
         "image": "portfolio_6.png",
         "title": "Portfolio Web Mockup",
-        "desc": "This design was created with figma."
+        "desc": "This design also was created with figma."
     },
     {
         "url": "",
