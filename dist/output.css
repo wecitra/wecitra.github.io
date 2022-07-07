@@ -594,6 +594,14 @@ html {
   margin-bottom: 1rem;
 }
 
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -610,14 +618,6 @@ html {
   margin-left: auto;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
 .block {
   display: block;
 }
@@ -626,8 +626,16 @@ html {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-20 {
   height: 5rem;
+}
+
+.h-4 {
+  height: 1rem;
 }
 
 .h-8 {
@@ -638,18 +646,6 @@ html {
   height: 1.25rem;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-3 {
-  height: 0.75rem;
-}
-
-.h-4 {
-  height: 1rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -658,24 +654,16 @@ html {
   width: 5rem;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
 .w-8 {
   width: 2rem;
 }
 
 .w-5 {
   width: 1.25rem;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-3 {
-  width: 0.75rem;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .justify-end {
@@ -688,10 +676,6 @@ html {
 
 .self-center {
   align-self: center;
-}
-
-.break-all {
-  word-break: break-all;
 }
 
 .rounded-full {
@@ -819,6 +803,11 @@ html {
   color: rgb(29 155 240 / var(--tw-text-opacity));
 }
 
+.text-danger {
+  --tw-text-opacity: 1;
+  color: rgb(255 29 72 / var(--tw-text-opacity));
+}
+
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -835,10 +824,6 @@ html {
     bottom: -3.5rem;
   }
 
-  .lg\:-bottom-12 {
-    bottom: -3rem;
-  }
-
   .lg\:right-28 {
     right: 7rem;
   }
@@ -851,8 +836,16 @@ html {
     margin-top: 4rem;
   }
 
+  .lg\:inline-block {
+    display: inline-block;
+  }
+
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:h-28 {
+    height: 7rem;
   }
 
   .lg\:h-32 {
@@ -867,10 +860,6 @@ html {
     height: 1.75rem;
   }
 
-  .lg\:h-10 {
-    height: 2.5rem;
-  }
-
   .lg\:w-32 {
     width: 8rem;
   }
@@ -879,12 +868,12 @@ html {
     width: 37%;
   }
 
-  .lg\:w-12 {
-    width: 3rem;
-  }
-
   .lg\:w-\[63\%\] {
     width: 63%;
+  }
+
+  .lg\:w-12 {
+    width: 3rem;
   }
 
   .lg\:w-7 {
@@ -893,10 +882,6 @@ html {
 
   .lg\:w-1\/2 {
     width: 50%;
-  }
-
-  .lg\:w-10 {
-    width: 2.5rem;
   }
 
   .lg\:flex-wrap {

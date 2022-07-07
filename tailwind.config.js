@@ -9,6 +9,7 @@ module.exports = {
       'secondary': '#828282',
       'light': '#F8F8F8',
       'dark': '#141D26',
+      'danger': '#FF1D48'
     },
     fontFamily: {
       
