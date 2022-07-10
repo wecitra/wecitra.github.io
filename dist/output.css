@@ -618,6 +618,58 @@ html {
   margin-left: auto;
 }
 
+.mb-\[10px\] {
+  margin-bottom: 10px;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.ml-14 {
+  margin-left: 3.5rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mb-\[8px\] {
+  margin-bottom: 8px;
+}
+
 .block {
   display: block;
 }
@@ -876,12 +928,12 @@ html {
     width: 3rem;
   }
 
-  .lg\:w-7 {
-    width: 1.75rem;
-  }
-
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:w-7 {
+    width: 1.75rem;
   }
 
   .lg\:flex-wrap {
