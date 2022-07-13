@@ -1,25 +1,32 @@
 
 let projects = [
-    // {
-    //     title: 'Bekasi City Dashboard',
-    //     url: 'https://satudata.bekasikota.go.id/CityDashboard',
-    //     image: 'portfolio_4.png',
-    //     desc: 'A landing page website that I made during my internship.',
-    //     tag: '#Bootstrap #CSS',
-    // },
     {
-        title: 'Pande.log',
-        url: 'https://www.bookio.websolutions.web.id/pande/',
-        image: 'portfolio_7.png',
-        desc: 'Simple travel log web that I made when trying out CodeIgniter.',
-        tag: '#CodeIgniter #JavaScript #Bootstrap #CSS',
+        title: 'Bekasi City Dashboard',
+        url: 'https://satudata.bekasikota.go.id/CityDashboard',
+        image: 'portfolio_4.png',
+        desc: 'A landing page website that I made during my internship.',
+        tag: '#Bootstrap #CSS',
     },
+    // {
+    //     title: 'Pande.log',
+    //     url: 'https://www.bookio.websolutions.web.id/pande/',
+    //     image: 'portfolio_7.png',
+    //     desc: 'Simple travel log web that I made when trying out CodeIgniter.',
+    //     tag: '#CodeIgniter #JavaScript #Bootstrap #CSS',
+    // },
     {
         title: 'Web Visual Identity',
         url: 'https://wecitra.github.io/visual-identity-webpage/',
         image: 'portfolio_1.png',
         desc: 'I made it with Bootstrap and additional CSS.',
         tag: '#JavaScript #Bootstrap #CSS',
+    },
+    {
+        title: 'API Movie',
+        url: 'https://wecitra.github.io/api-movie/',
+        image: 'portfolio_15.png',
+        desc: 'Responsive tailwind movies app',
+        tag: '#API #JavaScript #Tailwind #CSS',
     },
     {
         title: 'Creative Business Landing Page',
@@ -36,18 +43,11 @@ let projects = [
         tag: '#Tailwind #CSS #Flowbit',
     },
     {
-        title: 'Hostingin',
-        url: 'https://wecitra.github.io/web-hosting/',
-        image: 'portfolio_5.png',
-        desc: 'Web hosting using Bootstrap.',
-        tag: '#JavaScript #Bootstrap #CSS',
-    },
-    {
         title: 'Joke Maker',
         url: 'https://wecitra.github.io/joke-maker/',
         image: 'portfolio_11.png',
         desc: 'Simple project built with API, JS & CSS.',
-        tag: '#JavaScript #CSS #API',
+        tag: '#API #JavaScript #CSS',
     },
     {
         title: '17\'s TV Dashboard',
@@ -55,6 +55,13 @@ let projects = [
         image: 'portfolio_12.png',
         desc: 'Trying to create a project with Tailwind plugin, Flowbit.',
         tag: '#Tailwind #CSS #Flowbit',
+    },
+    {
+        title: 'Hostingin',
+        url: 'https://wecitra.github.io/web-hosting/',
+        image: 'portfolio_5.png',
+        desc: 'Web hosting using Bootstrap.',
+        tag: '#JavaScript #Bootstrap #CSS',
     },
     {
         title: 'Habits Mobile App Mockup',
