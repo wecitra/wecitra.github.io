@@ -43,6 +43,13 @@ let projects = [
         tag: '#Tailwind #CSS #Flowbit',
     },
     {
+        title: 'Old Personal Website',
+        url: 'https://wecitra.github.io/old-personal-web//',
+        image: 'portfolio_16.png',
+        desc: 'My old website.',
+        tag: '#JavaScript #Bootstrap #CSS #OwlCarousel #ScrollReveal',
+    },
+    {
         title: 'Joke Maker',
         url: 'https://wecitra.github.io/joke-maker/',
         image: 'portfolio_11.png',
