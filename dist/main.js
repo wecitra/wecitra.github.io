@@ -1,5 +1,12 @@
-
-let projects = [
+const projects = [
+    {
+        title: 'Build A Blog App With Laravel',
+        url: '#',
+        image: 'portfolio_13.png',
+        desc: 'A landing page website that I made during my internship.',
+        tag: '#Laravel #JavaScript #CSS #Bootstrap',
+        status: '&#9888 Under Development',
+    },
     {
         title: 'Bekasi City Dashboard',
         url: 'https://satudata.bekasikota.go.id/CityDashboard',
@@ -7,13 +14,13 @@ let projects = [
         desc: 'A landing page website that I made during my internship.',
         tag: '#Bootstrap #CSS',
     },
-    // {
-    //     title: 'Pande.log',
-    //     url: 'https://www.bookio.websolutions.web.id/pande/',
-    //     image: 'portfolio_7.png',
-    //     desc: 'Simple travel log web that I made when trying out CodeIgniter.',
-    //     tag: '#CodeIgniter #JavaScript #Bootstrap #CSS',
-    // },
+    {
+        title: 'Pande.log',
+        url: 'https://www.bookio.websolutions.web.id/pande/',
+        image: 'portfolio_7.png',
+        desc: 'Simple travel log web that I made when trying out CodeIgniter.',
+        tag: '#CodeIgniter #JavaScript #Bootstrap #CSS',
+    },
     {
         title: 'Web Visual Identity',
         url: 'https://wecitra.github.io/visual-identity-webpage/',
@@ -25,7 +32,7 @@ let projects = [
         title: 'API Movie',
         url: 'https://wecitra.github.io/api-movie/',
         image: 'portfolio_15.png',
-        desc: 'Responsive tailwind movies app',
+        desc: 'Responsive tailwind movies app.',
         tag: '#API #JavaScript #Tailwind #CSS',
     },
     {
@@ -85,6 +92,20 @@ let projects = [
         tag: '#Design #UI #Figma',
     },
     {
+        title: 'ScissorsRockPaper.js',
+        url: 'https://doobeedoobeedam.github.io/ScissorsPaperRock.js/',
+        image: 'portfolio_17.png',
+        desc: 'This is mini projects for me to learn basic of JS DOM.',
+        tag: '#JavaScript #CSS',
+    },
+    {
+        title: 'Simple Calculator',
+        url: 'https://doobeedoobeedam.github.io/simple-calculator/',
+        image: 'portfolio_18.png',
+        desc: 'Simple calculator made in vanilla JS and HTML.',
+        tag: '#JavaScript #CSS',
+    },
+    {
         title: 'Simple To Do',
         url: 'https://wecitra.github.io/simple-to-do-list/',
         image: 'portfolio_14.png',
@@ -93,48 +114,33 @@ let projects = [
     },
 ];
 
-projects.forEach(function({title,url,image,desc,tag}) {
-    var allProjects = document.querySelector('#all-projects');
+const el = `
+    <div class="p-5 border-b-2 border-b-light lg:flex lg:flex-wrap">
+        ${projects.map(project => `
+            <a href="${project.url}" target="_blank" class="lg:w-1/2 relative">
+                ${project.status ? 
+                    `<div class="ml-10 lg:ml-14 text-xs text-secondary flex -mt-5 mb-1 lg:mb-0 lg:absolute">
+                        <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin-fill" viewBox="0 0 16 16">
+                            <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354z"/>
+                        </svg>
+                        <span>Pinned project</span>
+                    </div>`
+                : ``}
+                <div class="flex mb-4 border-b-2 border-b-light lg:border-b-0">
+                    <img src="dist/img/profile.png" alt="" class="w-8 h-8 lg:w-12 lg:h-12 rounded-full mr-3">
+                    <div class="self-center mb-5">
+                        <h1 class="font-semibold">${project.title}</h1>
+                        ${project.status ? 
+                            `<span class="text-sm lg:text-base text-danger block">${project.status}</span>` 
+                        : `<span class="text-sm lg:text-base text-secondary block">${project.desc}</span>`}
+                        <span class="text-sm text-primary block mb-3">${project.tag}</span>
+                        <img src="dist/img/portfolios/${project.image}" alt="${project.title}">
+                    </div>
+                </div>
+            </a>
+        `).join("")}
+    </div>`
+;
 
-    let a = document.createElement('a');
-    a.classList.add('lg:w-1/2');
-    a.href = url;
-    a.target = '_blank';
-
-    let div = document.createElement('div');
-    div.classList.add('flex', 'mb-4', 'border-b-2', 'border-b-light', 'lg:border-b-0');
-
-    let imgProfile = document.createElement('img');
-    imgProfile.classList.add('w-8', 'h-8', 'lg:w-12', 'lg:h-12', 'rounded-full', 'mr-3');
-    imgProfile.src = 'dist/img/profile.png';
-    imgProfile.alt = 'Kusuma Wecitra';
-
-    let body = document.createElement('div');
-    body.classList.add('self-center', 'mb-5');
-
-    let h1 = document.createElement('h1');
-    h1.classList.add('font-semibold');
-    h1.innerHTML = title;
-
-    let spanDesc = document.createElement('span');
-    spanDesc.classList.add('text-sm', 'lg:text-base', 'text-secondary', 'block');
-    spanDesc.innerHTML = desc;
-
-    let spanTag = document.createElement('span');
-    spanTag.classList.add('text-sm', 'text-primary', 'block', 'mb-3');
-    spanTag.innerHTML = tag;
-
-    let img = document.createElement('img');
-    img.src = 'dist/img/portfolios/' + image;
-    img.alt = title;
-
-    body.appendChild(h1);
-    body.appendChild(spanDesc);
-    body.appendChild(spanTag);
-    body.appendChild(img);
-    div.appendChild(imgProfile);
-    div.appendChild(body);
-    a.appendChild(div);
-
-    allProjects.appendChild(a);
-});
+var allProjects = document.querySelector('#all-projects');
+allProjects.innerHTML = el;
