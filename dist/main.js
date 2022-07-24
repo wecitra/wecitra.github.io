@@ -1,31 +1,31 @@
 const projects = [
     {
         title: 'Build A Blog App With Laravel',
-        url: '#',
+        url: 'https://github.com/doobeedoobeedam/b-log',
         image: 'portfolio_13.png',
-        desc: 'A landing page website that I made during my internship.',
+        desc: 'B-log is a website that allows to post, edit, save and view blog posts, created to completed learning Laravel Basic.',
         tag: '#Laravel #JavaScript #CSS #Bootstrap',
-        status: '&#9888 Under Development',
+        // status: '&#9888 Under Development',
     },
     {
         title: 'Bekasi City Dashboard',
         url: 'https://satudata.bekasikota.go.id/CityDashboard',
         image: 'portfolio_4.png',
-        desc: 'A landing page website that I made during my internship.',
+        desc: 'Bekasi City Dashboard is landing page and also my first assignment during my internship at PT. Ciptadra Softindo.',
         tag: '#Bootstrap #CSS',
     },
     {
         title: 'Pande.log',
         url: 'https://www.bookio.websolutions.web.id/pande/',
         image: 'portfolio_7.png',
-        desc: 'Simple travel log web that I made when trying out CodeIgniter.',
+        desc: 'Pande.log is a travel log web application that created to finished Uji Kompetensi Keahlian 2022.',
         tag: '#CodeIgniter #JavaScript #Bootstrap #CSS',
     },
     {
         title: 'Web Visual Identity',
         url: 'https://wecitra.github.io/visual-identity-webpage/',
         image: 'portfolio_1.png',
-        desc: 'I made it with Bootstrap and additional CSS.',
+        desc: 'I made this to fulfill a Pemrograman Web dan Perangkat Bergerak assignment.',
         tag: '#JavaScript #Bootstrap #CSS',
     },
     {
@@ -132,7 +132,7 @@ const el = `
                         <h1 class="font-semibold">${project.title}</h1>
                         ${project.status ? 
                             `<span class="text-sm lg:text-base text-danger block">${project.status}</span>` 
-                        : `<span class="text-sm lg:text-base text-secondary block">${project.desc}</span>`}
+                        : `<span class="text-sm lg:text-base text-secondary block pr-5">${project.desc}</span>`}
                         <span class="text-sm text-primary block mb-3">${project.tag}</span>
                         <img src="dist/img/portfolios/${project.image}" alt="${project.title}">
                     </div>
