@@ -12,7 +12,7 @@ module.exports = {
       'danger': '#FF1D48'
     },
     fontFamily: {
-      
+      'sans': ['Roboto', 'sans-serif'],
     }
   },
   plugins: [],
