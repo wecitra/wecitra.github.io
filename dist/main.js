@@ -36,18 +36,18 @@ const projects = [
         tag: '#API #JavaScript #Tailwind #CSS',
     },
     {
+        title: 'Random Quotes API',
+        url: 'https://doobeedoobeedam.github.io/random-quote-generator/',
+        image: 'portfolio_19.png',
+        desc: 'An API full of quotes to bring some joy to your day!',
+        tag: '#API #JavaScript #CSS',
+    },
+    {
         title: 'Creative Business Landing Page',
         url: 'https://wecitra.github.io/creative-business/',
         image: 'portfolio_9.png',
         desc: '1st trying to make a landing page with Tailwind.',
         tag: '#Tailwind #CSS',
-    },
-    {
-        title: 'Essences for Life',
-        url: 'https://wecitra.github.io/essences-for-life-perfume-webpage/',
-        image: 'portfolio_10.png',
-        desc: '2nd trying to make a landing page with Tailwind.',
-        tag: '#Tailwind #CSS #Flowbit',
     },
     {
         title: 'Old Personal Website',
@@ -62,6 +62,13 @@ const projects = [
         image: 'portfolio_11.png',
         desc: 'Simple project built with API, JS & CSS.',
         tag: '#API #JavaScript #CSS',
+    },
+    {
+        title: 'Essences for Life',
+        url: 'https://wecitra.github.io/essences-for-life-perfume-webpage/',
+        image: 'portfolio_10.png',
+        desc: '2nd trying to make a landing page with Tailwind.',
+        tag: '#Tailwind #CSS #Flowbit',
     },
     {
         title: '17\'s TV Dashboard',
