@@ -5,7 +5,7 @@ const projects = [
         image: 'portfolio_13.png',
         desc: 'B-log is a website that allows to post, edit, save and view blog posts, created to completed learning Laravel Basic.',
         tag: '#Laravel #JavaScript #CSS #Bootstrap',
-        // status: '&#9888 Under Development',
+        status: true,
     },
     {
         title: 'Bekasi City Dashboard',
@@ -16,7 +16,7 @@ const projects = [
     },
     {
         title: 'Pande.log',
-        url: 'https://www.bookio.websolutions.web.id/pande/',
+        url: 'https://github.com/doobeedoobeedam/pande.log/',
         image: 'portfolio_7.png',
         desc: 'Pande.log is a travel log web application that created to finished Uji Kompetensi Keahlian 2022.',
         tag: '#CodeIgniter #JavaScript #Bootstrap #CSS',
@@ -137,9 +137,7 @@ const el = `
                     <img src="dist/img/profile.png" alt="" class="w-8 h-8 lg:w-12 lg:h-12 rounded-full mr-3">
                     <div class="self-center mb-5">
                         <h1 class="font-semibold">${project.title}</h1>
-                        ${project.status ? 
-                            `<span class="text-sm lg:text-base text-danger block">${project.status}</span>` 
-                        : `<span class="text-sm lg:text-base text-secondary block pr-5">${project.desc}</span>`}
+                        <span class="text-sm lg:text-base text-secondary block pr-5">${project.desc}</span>
                         <span class="text-sm text-primary block mb-3">${project.tag}</span>
                         <img src="dist/img/portfolios/${project.image}" alt="${project.title}">
                     </div>
