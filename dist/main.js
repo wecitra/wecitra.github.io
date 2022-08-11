@@ -38,12 +38,12 @@ function updateDialog(project) {
             <img src="dist/img/portfolios/${project.image}" alt="${project.title}">
 
             <div class="flex justify-end pt-3 border-t-2 border-t-light">
-                <a href="" class="self-center">
-                    <svg class="w-6 h-6 text-secondary hover:text-primary transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
-                </a>
-                <a href="" class="self-center">
-                    <svg class="w-6 h-6 text-secondary hover:text-primary transition-colors mx-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
-                </a>
+                ${project.github ? `<a href="${project.github}" class="self-center">
+                    <svg class="w-6 h-6 text-secondary hover:text-primary transition-colors mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                </a>` : ``}
+                ${project.url ? `<a href="${project.url}" class="self-center">
+                    <svg class="w-6 h-6 text-secondary hover:text-primary transition-colors mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                </a>` : ``}
                 <button id="close" class="px-5 py-2 font-semibold bg-primary text-white cursor-pointer rounded-md">Close</button>
             </div>
         `)

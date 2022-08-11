@@ -1083,6 +1083,10 @@ html {
     width: 50%;
   }
 
+  .lg\:w-\[900px\] {
+    width: 900px;
+  }
+
   .lg\:flex-wrap {
     flex-wrap: wrap;
   }

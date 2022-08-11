@@ -1,23 +1,10 @@
-export let projects = [{
+export let projects = [
+    {
         title: 'Build A Blog App With Laravel',
-        url: 'https://github.com/doobeedoobeedam/b-log',
         image: 'portfolio_13.png',
         excerpt: 'B-log is a website that allows to post, edit, save and view blog posts, created to completed learning Laravel Basic.',
-        desc: `
-            <p class="text-secondary">Musik merupakan kebutuhan hiburan yang hampir diperlukan oleh semua orang dari berbagai kalangan. Tentu dengan adanya aplikasi pemutar musik yang telah diinstal pada mobile yang dimiliki setiap user akan mempermudah kebutuhan user. Oleh karena itu saya membuat design aplikasi pemutar musik ini yang saya rancang agar nyaman dan mudah digunakan oleh user.</p>
-            <br>
-            <p class="font-semibold">Research</p>
-            <p class="text-secondary">Tahap pertama yang dilakukan dalam proses desain adalah research. Di sini saya mencari ide melalui Dribbble. Kemudian menentukan ikon, tipografi dan pemilihan warna yang akan digunakan.</p>
-            <br>
-            <img src="dist/img/portfolios/portfolio_13.png" alt="portfolio_13.png">
-            <br>
-            <p class="font-semibold">Wireframe</p>
-            <p class="text-secondary">Setelah melakukan research, tahap selanjutnya adalah membuat wireframe. Saya membuat wireframe dengan Figma. Berikut adalah tampilan wireframe yang telah dibuat meliputi halaman home, detail playlist dan detail lagu.</p>
-            <br>
-            <p class="font-semibold">Result</p>
-            <p class="text-secondary">Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
-        `,
         tag: '#Laravel #JavaScript #CSS #Bootstrap',
+        github: 'https://github.com/doobeedoobeedam/b-log',
         status: true,
     },
     {
@@ -29,7 +16,7 @@ export let projects = [{
     },
     {
         title: 'Pande.log',
-        url: 'https://github.com/doobeedoobeedam/pande.log/',
+        github: 'https://github.com/doobeedoobeedam/pande.log/',
         image: 'portfolio_7.png',
         excerpt: 'Pande.log is a travel log web application that created to finished Uji Kompetensi Keahlian 2022.',
         tag: '#CodeIgniter #JavaScript #Bootstrap #CSS',
@@ -98,7 +85,28 @@ export let projects = [{
         tag: '#JavaScript #Bootstrap #CSS',
     },
     {
-        title: 'Habits Mobile App Mockup',
+        title: 'Musics Player Mobile Mockup',
+        image: 'portfolio_20.png',
+        excerpt: 'Make it with the figma tool with a bit of seriousness.',
+        tag: '#Design #UI #Figma',
+        desc: `
+            <p class="text-secondary">Musik merupakan kebutuhan hiburan yang hampir diperlukan oleh semua orang dari berbagai kalangan. Tentu dengan adanya aplikasi pemutar musik yang telah diinstal pada mobile yang dimiliki setiap user akan mempermudah kebutuhan user. Oleh karena itu saya membuat design aplikasi pemutar musik ini yang saya rancang agar nyaman dan mudah digunakan oleh user.</p>
+            <br>
+            <p class="font-semibold">Research</p>
+            <p class="text-secondary">Tahap pertama yang dilakukan dalam proses desain adalah research. Di sini saya mencari ide melalui Dribbble. Kemudian menentukan ikon, tipografi dan pemilihan warna yang akan digunakan.</p>
+            <br>
+            <img src="dist/img/portfolios/portfolio_20_guide.png" alt="portfolio_13.png">
+            <br>
+            <p class="font-semibold">Wireframe</p>
+            <p class="text-secondary">Setelah melakukan research, tahap selanjutnya adalah membuat wireframe. Saya membuat wireframe dengan Figma. Berikut adalah tampilan wireframe yang telah dibuat meliputi halaman home, detail playlist dan detail lagu.</p>
+            <img src="dist/img/portfolios/portfolio_20_wireframes.png" alt="portfolio_13.png">
+            <br>
+            <p class="font-semibold">Result</p>
+            <p class="text-secondary">Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
+        `,
+    },
+    {
+        title: 'Habits Mobile Mockup',
         url: 'https://www.figma.com/proto/U1KNM4ydys0DZwl6UJ5NOy/HabitsAppMockup?scaling=scale-down',
         image: 'portfolio_8.png',
         excerpt: 'Make it with the figma tool with a bit of seriousness.',
