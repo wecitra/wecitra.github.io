@@ -49,11 +49,11 @@
     </div>
 
     <div class="lg:flex lg:px-28">
-        <!-- Skills & Experiences -->
-        <div
-            class="w-full lg:w-[37%] p-5 mb-5 border-b-2 border-b-light lg:order-last lg:border-l-2 lg:border-l-light lg:border-b-0">
+        <div class="w-full lg:w-[37%] p-5 mb-5 border-b-2 border-b-light lg:order-last lg:border-l-2 lg:border-l-light lg:border-b-0">
+
+            <!-- Experiences -->
             <div class="bg-light p-5 rounded-xl mb-5">
-                <h1 class="text-2xl font-bold mb-5">Experiences</h1>
+                <h1 class="text-2xl font-bold mb-4">Experiences</h1>
                 <div class="flex mb-4">
                     <img src="dist/img/tag.png" alt="" class="w-8 h-8 rounded-full mr-3">
                     <div class="self-center mb-3">
@@ -74,42 +74,24 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Skills -->
             <div class="bg-light p-5 rounded-xl mb-5">
-                <h1 class="text-2xl font-bold mb-5">Skills</h1>
-                <div class="flex mb-4">
-                    <img src="dist/img/tag.png" alt="" class="w-8 h-8 rounded-full mr-3">
-                    <div class="self-center">
-                        <h1 class="font-semibold -mb-1">UI / UX</h1>
-                        <span class="text-sm text-secondary">Intermediate</span>
-                    </div>
-                </div>
-                <div class="flex mb-4">
-                    <img src="dist/img/tag.png" alt="" class="w-8 h-8 rounded-full mr-3">
-                    <div class="self-center">
-                        <h1 class="font-semibold -mb-1">CSS / SASS / Bootstrap / Tailwind</h1>
-                        <span class="text-sm text-secondary">Intermediate</span>
-                    </div>
-                </div>
-                <div class="flex mb-4">
-                    <img src="dist/img/tag.png" alt="" class="w-8 h-8 rounded-full mr-3">
-                    <div class="self-center">
-                        <h1 class="font-semibold -mb-1">JavaScript / DOM</h1>
-                        <span class="text-sm text-secondary">Intermediate</span>
-                    </div>
-                </div>
-                <div class="flex mb-4">
-                    <img src="dist/img/tag.png" alt="" class="w-8 h-8 rounded-full mr-3">
-                    <div class="self-center">
-                        <h1 class="font-semibold -mb-1">Laravel / CodeIgniter</h1>
-                        <span class="text-sm text-secondary">Intermediate</span>
-                    </div>
-                </div>
-                <div class="flex">
-                    <img src="dist/img/tag.png" alt="" class="w-8 h-8 rounded-full mr-3">
-                    <div class="self-center">
-                        <h1 class="font-semibold -mb-1">MySQL / GIT</h1>
-                        <span class="text-sm text-secondary">Intermediate</span>
-                    </div>
+                <h1 class="text-2xl font-bold mb-4">Skills</h1>
+                <div class="flex flex-wrap [&>*]:bg-primary [&>*]:font-medium [&>*]:text-white [&>*]:mr-2 [&>*]:mb-2 [&>*]:px-3 [&>*]:rounded-md">
+                    <span>UI / UX</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Sass</span>
+                    <span>Bootstrap</span>
+                    <span>Tailwind</span>
+                    <span>JavaScript</span>
+                    <span>DOM</span>
+                    <span>Git</span>
+                    <span>CodeIgniter</span>
+                    <span>Laravel</span>
+                    <span>MySQL</span>
+                    <span>Rest API</span>
                 </div>
             </div>
             <span class="text-sm text-secondary hidden lg:inline-block">© 2022 Kusuma Wecitra</span>
@@ -118,7 +100,7 @@
         <!-- Projects -->
         <div class="w-full lg:w-[63%]">
             <div class="p-5 border-b-2 border-b-light">
-                <a href="https://github.com/doobeedoobeedam/pande.log/" target="_blank">
+                <div data-index="2" class="cursor-pointer open2">
                     <div class="flex mb-4 border-b-2 border-b-light">
                         <img src="dist/img/profile.png" alt="" class="w-8 h-8 lg:w-12 lg:h-12 rounded-full mr-3">
                         <div class="self-center mb-5">
@@ -130,8 +112,8 @@
                             <img src="dist/img/portfolios/portfolio_7.png" alt="Pande.log">
                         </div>
                     </div>
-                </a>
-                <a href="https://satudata.bekasikota.go.id/CityDashboard" target="_blank">
+                </div>
+                <div data-index="1" class="cursor-pointer open2">
                     <div class="flex mb-4 border-b-2 border-b-light">
                         <img src="dist/img/profile.png" alt="" class="w-8 h-8 lg:w-12 lg:h-12 rounded-full mr-3">
                         <div class="self-center mb-5">
@@ -142,9 +124,8 @@
                             <img src="dist/img/portfolios/portfolio_4.png" alt="Bekasi City Dashboard">
                         </div>
                     </div>
-                </a>
-                <a href="https://doobeedoobeedam.github.io/visual-identity-webpage/" target="_BLANK"
-                    class="group-hover:bg-dark">
+                </div>
+                <div data-index="3" class="cursor-pointer open2">
                     <div class="flex mb-4 border-b-2 border-b-light group">
                         <img src="dist/img/profile.png" alt="" class="w-8 h-8 lg:w-12 lg:h-12 rounded-full mr-3">
                         <div class="self-center mb-5">
@@ -155,13 +136,17 @@
                             <img src="dist/img/portfolios/portfolio_1.png" alt="Web Visual Identity">
                         </div>
                     </div>
-                </a>
+                </div>
                 <div class="pb-4 flex justify-center">
                     <a href="projects.html" class="text-primary text-center">Show another projects</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <div id="overlay" class="fixed hidden z-40 w-screen h-screen inset-0 bg-secondary bg-opacity-30 overlay"></div>
+    <div id="dialog" class="hidden fixed z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] md:w-[650px] lg:w-[800px] bg-white rounded-md px-8 py-6 space-y-5 drop-shadow-lg max-h-[80vh] overflow-y-scroll scroll-smooth dialog"></div>
+    <script src="dist/main.js" type="module"></script>
 </body>
 
 </html>
