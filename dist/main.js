@@ -1,130 +1,58 @@
-const projects = [
-    {
-        title: 'Build A Blog App With Laravel',
-        url: 'https://github.com/doobeedoobeedam/b-log',
-        image: 'portfolio_13.png',
-        desc: 'B-log is a website that allows to post, edit, save and view blog posts, created to completed learning Laravel Basic.',
-        tag: '#Laravel #JavaScript #CSS #Bootstrap',
-        status: true,
-    },
-    {
-        title: 'Bekasi City Dashboard',
-        url: 'https://satudata.bekasikota.go.id/CityDashboard',
-        image: 'portfolio_4.png',
-        desc: 'Bekasi City Dashboard is landing page and also my first assignment during my internship at PT. Ciptadra Softindo.',
-        tag: '#Bootstrap #CSS',
-    },
-    {
-        title: 'Pande.log',
-        url: 'https://github.com/doobeedoobeedam/pande.log/',
-        image: 'portfolio_7.png',
-        desc: 'Pande.log is a travel log web application that created to finished Uji Kompetensi Keahlian 2022.',
-        tag: '#CodeIgniter #JavaScript #Bootstrap #CSS',
-    },
-    {
-        title: 'Web Visual Identity',
-        url: 'https://doobeedoobeedam.github.io/visual-identity-webpage/',
-        image: 'portfolio_1.png',
-        desc: 'I made this to fulfill a Pemrograman Web dan Perangkat Bergerak assignment.',
-        tag: '#JavaScript #Bootstrap #CSS',
-    },
-    {
-        title: 'API Movie',
-        url: 'https://doobeedoobeedam.github.io/api-movie/',
-        image: 'portfolio_15.png',
-        desc: 'Responsive tailwind movies app.',
-        tag: '#API #JavaScript #Tailwind #CSS',
-    },
-    {
-        title: 'Random Quotes API',
-        url: 'https://doobeedoobeedam.github.io/random-quote-generator/',
-        image: 'portfolio_19.png',
-        desc: 'An API full of quotes to bring some joy to your day!',
-        tag: '#API #JavaScript #CSS',
-    },
-    {
-        title: 'Creative Business Landing Page',
-        url: 'https://doobeedoobeedam.github.io/creative-business/',
-        image: 'portfolio_9.png',
-        desc: '1st trying to make a landing page with Tailwind.',
-        tag: '#Tailwind #CSS',
-    },
-    {
-        title: 'Old Personal Website',
-        url: 'https://doobeedoobeedam.github.io/retro-cv/',
-        image: 'portfolio_16.png',
-        desc: 'My old website.',
-        tag: '#JavaScript #Bootstrap #CSS #OwlCarousel #ScrollReveal',
-    },
-    {
-        title: 'Joke Maker',
-        url: 'https://doobeedoobeedam.github.io/joke-maker/',
-        image: 'portfolio_11.png',
-        desc: 'Simple project built with API, JS & CSS.',
-        tag: '#API #JavaScript #CSS',
-    },
-    {
-        title: 'Essences for Life',
-        url: 'https://doobeedoobeedam.github.io/essences-for-life-perfume-webpage/',
-        image: 'portfolio_10.png',
-        desc: '2nd trying to make a landing page with Tailwind.',
-        tag: '#Tailwind #CSS #Flowbit',
-    },
-    {
-        title: '17\'s TV Dashboard',
-        url: 'https://doobeedoobeedam.github.io/svt.tv/',
-        image: 'portfolio_12.png',
-        desc: 'Trying to create a project with Tailwind plugin, Flowbit.',
-        tag: '#Tailwind #CSS #Flowbit',
-    },
-    {
-        title: 'Hostingin',
-        url: 'https://doobeedoobeedam.github.io/web-hosting/',
-        image: 'portfolio_5.png',
-        desc: 'Web hosting using Bootstrap.',
-        tag: '#JavaScript #Bootstrap #CSS',
-    },
-    {
-        title: 'Habits Mobile App Mockup',
-        url: 'https://www.figma.com/proto/U1KNM4ydys0DZwl6UJ5NOy/HabitsAppMockup?scaling=scale-down',
-        image: 'portfolio_8.png',
-        desc: 'Make it with the figma tool with a bit of seriousness.',
-        tag: '#Design #UI #Figma',
-    },
-    {
-        title: 'Portfolio Web Mockup',
-        url: 'https://www.figma.com/proto/WbDj9Lu5p8T3tfXhfu3Rdh/Bronze-Portfolio-Web-Design?scaling=scale-down',
-        image: 'portfolio_6.png',
-        desc: 'This design also was created with figma.',
-        tag: '#Design #UI #Figma',
-    },
-    {
-        title: 'ScissorsRockPaper.js',
-        url: 'https://doobeedoobeedam.github.io/ScissorsPaperRock.js/',
-        image: 'portfolio_17.png',
-        desc: 'This is mini projects for me to learn basic of JS DOM.',
-        tag: '#JavaScript #CSS',
-    },
-    {
-        title: 'Simple Calculator',
-        url: 'https://doobeedoobeedam.github.io/simple-calculator/',
-        image: 'portfolio_18.png',
-        desc: 'Simple calculator made in vanilla JS and HTML.',
-        tag: '#JavaScript #CSS',
-    },
-    {
-        title: 'Simple To Do',
-        url: 'https://doobeedoobeedam.github.io/simple-to-do-list/',
-        image: 'portfolio_14.png',
-        desc: 'This To Do is built with JS & CSS.',
-        tag: '#JavaScript #CSS',
-    },
-];
+var openDialog2 = document.querySelectorAll('.open2');
+openDialog2.forEach(() => { openModal(openDialog2) });
 
-const el = `
-    <div class="p-5 border-b-2 border-b-light lg:flex lg:flex-wrap">
-        ${projects.map(project => `
-            <a href="${project.url}" target="_blank" class="lg:w-1/2 relative">
+var dialog = document.querySelectorAll('.dialog');
+var overlay = document.querySelectorAll('.overlay');
+var allProjects = document.querySelector('#all-projects');
+
+import { projects } from './data.js';
+allProjects.innerHTML = showProjects(projects);
+var openDialog = document.querySelectorAll('.open');
+
+openDialog.forEach(() => { openModal(openDialog) });
+
+function openModal(element) {
+    element.forEach(e => e.addEventListener('click', function () {
+        dialog.forEach(d => d.classList.remove('hidden'));
+        overlay.forEach(o => o.classList.remove('hidden'));
+    
+        const index = this.dataset.index;
+        const project = projects[index];
+        updateDialog(project);
+    
+        var closeDialog = document.querySelector('#close');
+        closeDialog.addEventListener('click', function () {
+            dialog.forEach(d => d.classList.add('hidden'));
+            overlay.forEach(o => o.classList.add('hidden'));
+        });
+    }));
+}
+
+function updateDialog(project) {
+    dialog.forEach(d => 
+        d.innerHTML = `
+            <h1 class="text-xl lg:text-2xl font-semibold -mb-3">${project.title}</h1>
+            <div class="mb-4">
+                ${project.desc ? project.desc : `<p class="text-secondary">${project.excerpt}</p>`}
+            </div>
+            <img src="dist/img/portfolios/${project.image}" alt="${project.title}">
+
+            <div class="flex justify-end pt-3 border-t-2 border-t-light">
+                <a href="" class="self-center">
+                    <svg class="w-6 h-6 text-secondary hover:text-primary transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                </a>
+                <a href="" class="self-center">
+                    <svg class="w-6 h-6 text-secondary hover:text-primary transition-colors mx-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                </a>
+                <button id="close" class="px-5 py-2 font-semibold bg-primary text-white cursor-pointer rounded-md">Close</button>
+            </div>
+        `)
+}
+
+function showProjects(projects) {
+    return `<div class="p-5 border-b-2 border-b-light lg:flex lg:flex-wrap">
+        ${projects.map((project, i) => `
+            <div data-index="${i}" class="lg:w-1/2 relative cursor-pointer open">
                 ${project.status ? 
                     `<div class="ml-10 lg:ml-14 text-xs text-secondary flex -mt-5 mb-1 lg:mb-0 lg:absolute">
                         <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin-fill" viewBox="0 0 16 16">
@@ -137,15 +65,12 @@ const el = `
                     <img src="dist/img/profile.png" alt="" class="w-8 h-8 lg:w-12 lg:h-12 rounded-full mr-3">
                     <div class="self-center mb-5">
                         <h1 class="font-semibold">${project.title}</h1>
-                        <span class="text-sm lg:text-base text-secondary block pr-5">${project.desc}</span>
+                        <span class="text-sm lg:text-base text-secondary block pr-5">${project.excerpt}</span>
                         <span class="text-sm text-primary block mb-3">${project.tag}</span>
                         <img src="dist/img/portfolios/${project.image}" alt="${project.title}">
                     </div>
                 </div>
-            </a>
+            </div>
         `).join("")}
     </div>`
-;
-
-var allProjects = document.querySelector('#all-projects');
-allProjects.innerHTML = el;
+}
