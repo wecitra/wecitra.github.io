@@ -637,11 +637,6 @@ html {
   z-index: 50;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
 .mt-11 {
   margin-top: 2.75rem;
 }
@@ -728,6 +723,18 @@ html {
 
 .max-h-\[80vh\] {
   max-height: 80vh;
+}
+
+.max-h-\[90vh\] {
+  max-height: 90vh;
+}
+
+.max-h-\[85vh\] {
+  max-height: 85vh;
+}
+
+.max-h-\[83vh\] {
+  max-height: 83vh;
 }
 
 .w-full {
@@ -1071,8 +1078,8 @@ html {
     width: 3rem;
   }
 
-  .lg\:w-\[800px\] {
-    width: 800px;
+  .lg\:w-\[900px\] {
+    width: 900px;
   }
 
   .lg\:w-7 {
@@ -1083,8 +1090,12 @@ html {
     width: 50%;
   }
 
-  .lg\:w-\[900px\] {
-    width: 900px;
+  .lg\:w-\[1000px\] {
+    width: 1000px;
+  }
+
+  .lg\:w-\[950px\] {
+    width: 950px;
   }
 
   .lg\:flex-wrap {
