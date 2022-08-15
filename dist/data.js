@@ -15,18 +15,18 @@ export let projects = [
         image: 'portfolio_4.png',
         excerpt: 'Bekasi City Dashboard adalah landing page yang dibuat di hari pertama saya magang di PT. Ciptadra Softindo.',
         desc: `
-            <p class="text-secondary">Pada hari pertama magang, saya ditugaskan membuat sebuah landing page untuk Bekasi City Dashboard. Dimana tugas ini mengalami tiga kali revisi, seperti penambahan animasi, perubahan warna dan perubahan isi konten.</p>
+            <p class="text-secondary text-sm lg:text-base">Pada hari pertama magang, saya ditugaskan membuat sebuah landing page untuk Bekasi City Dashboard. Dimana tugas ini mengalami tiga kali revisi, seperti penambahan animasi, perubahan warna dan perubahan isi konten.</p>
             <br>
-            <p class="text-secondary">Supaya menghemat waktu, saya membuat landing page ini dengan Bootstrap dan AOS untuk membuat efek animasinya.</p>
+            <p class="text-secondary text-sm lg:text-base">Supaya menghemat waktu, saya membuat landing page ini dengan Bootstrap dan AOS untuk membuat efek animasinya.</p>
             <br>
             <p class="font-semibold">Research</p>
-            <p class="text-secondary">Research adalah tahap pertama yang dilakukan dalam proses pembuatan landing page ini. Di sini saya menentukan ilustrasi, ikon, font dan memilih warna yang akan digunakan.</p>
+            <p class="text-secondary text-sm lg:text-base">Research adalah tahap pertama yang dilakukan dalam proses pembuatan landing page ini. Di sini saya menentukan ilustrasi, ikon, font dan memilih warna yang akan digunakan.</p>
             <img src="dist/img/portfolios/portfolio_4_guide.png" alt="Bekasi City Dashboard">
             <p class="font-semibold">Wireframe & Mockup</p>
-            <p class="text-secondary">Berikutnya adalah membuat Wireframe dan Mockup. Keduanya dibuat menggunakan Figma.</p>
+            <p class="text-secondary text-sm lg:text-base">Berikutnya adalah membuat Wireframe dan Mockup. Keduanya dibuat menggunakan Figma.</p>
             <img src="dist/img/portfolios/portfolio_4_wireframe_mockup.png" alt="Bekasi City Dashboard">
             <p class="font-semibold">Result</p>
-            <p class="text-secondary">Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
+            <p class="text-secondary text-sm lg:text-base">Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
         tag: '#Bootstrap #CSS',
     },
     // Pande.log
@@ -54,20 +54,20 @@ export let projects = [
         image: 'portfolio_5.png',
         excerpt: 'Pada proyek kali ini, saya melakukan pembuatan halaman Web Hosting. Pemrograman dilakukan dengan menggunakan ...',
         desc: `
-            <p class="text-secondary">Pada proyek kali ini, saya melakukan pembuatan halaman Web Hosting. Pemrograman dilakukan dengan menggunakan HTML, Bootstrap/CSS, dan JavaScript. Website ini juga sudah dibuat responsive di semua media platform, seperti mobile, tab dan desktop.</p>
+            <p class="text-secondary text-sm lg:text-base">Pada proyek kali ini, saya melakukan pembuatan halaman Web Hosting. Pemrograman dilakukan dengan menggunakan HTML, Bootstrap/CSS, dan JavaScript. Website ini juga sudah dibuat responsive di semua media platform, seperti mobile, tab dan desktop.</p>
             <br>
             <p class="font-semibold">Research</p>
-            <p class="text-secondary">Research adalah tahap pertama yang dilakukan dalam proses pembuatan Web Hosting ini. Di sini saya menentukan ikon, tipografi dan memilih warna yang akan digunakan.</p>
+            <p class="text-secondary text-sm lg:text-base">Research adalah tahap pertama yang dilakukan dalam proses pembuatan Web Hosting ini. Di sini saya menentukan ikon, tipografi dan memilih warna yang akan digunakan.</p>
             <br>
             <img src="dist/img/portfolios/portfolio_5_guide.png" alt="Hostingin">
             <br>
             <p class="font-semibold">Wireframe & Mockup</p>
-            <p class="text-secondary">Berikutnya adalah membuat Wireframe dan Mockup. Keduanya dibuat menggunakan Figma.</p>
+            <p class="text-secondary text-sm lg:text-base">Berikutnya adalah membuat Wireframe dan Mockup. Keduanya dibuat menggunakan Figma.</p>
             <br>
             <img src="dist/img/portfolios/portfolio_5_mockup.png" alt="Hostingin">
             <br>
             <p class="font-semibold">Result</p>
-            <p class="text-secondary">Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
+            <p class="text-secondary text-sm lg:text-base">Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
         tag: '#JavaScript #Bootstrap #CSS',
     },
         // Musics Player Mobile Mockup
@@ -77,19 +77,19 @@ export let projects = [
             excerpt: 'Untuk membuat musik dapat dinikmati dalam keheningan jam senja dibutuhkan sebuah aplikasi pemutar musik ...',
             tag: '#Design #UI #Figma',
             desc: `
-                <p class="text-secondary">Alam, melalui semua kedalamannya, penuh dengan musik — bervariasi dalam nada dan kaya akan melodi. Untuk membuat musik dapat dinikmati dalam keheningan jam senja ; dalam suara angin sepoi-sepoi yang sejuk ; di air mancur pedalaman ; dalam riak-riak dari ambang gunung dan di pinggir laut yang ditimpa badai dibutuhkan sebuah aplikasi pemutar musik yang telah diinstal pada smartphone yang dimiliki lebih dari 83% populasi manusia. Oleh karena itu saya merancang desain aplikasi pemutar musik ini.</p>
+                <p class="text-secondary text-sm lg:text-base">Alam, melalui semua kedalamannya, penuh dengan musik — bervariasi dalam nada dan kaya akan melodi. Untuk membuat musik dapat dinikmati dalam keheningan jam senja ; dalam suara angin sepoi-sepoi yang sejuk ; di air mancur pedalaman ; dalam riak-riak dari ambang gunung dan di pinggir laut yang ditimpa badai dibutuhkan sebuah aplikasi pemutar musik yang telah diinstal pada smartphone yang dimiliki lebih dari 83% populasi manusia. Oleh karena itu saya merancang desain aplikasi pemutar musik ini.</p>
                 <br>
                 <p class="font-semibold">Research</p>
-                <p class="text-secondary">Tahap pertama yang dilakukan dalam proses desain adalah research. Di sini saya mencari ide melalui Dribbble. Kemudian menentukan ikon, tipografi dan pemilihan warna yang akan digunakan.</p>
+                <p class="text-secondary text-sm lg:text-base">Tahap pertama yang dilakukan dalam proses desain adalah research. Di sini saya mencari ide melalui Dribbble. Kemudian menentukan ikon, tipografi dan pemilihan warna yang akan digunakan.</p>
                 <br>
                 <img src="dist/img/portfolios/portfolio_20_guide.png" alt="Musics Player Mobile Mockup">
                 <br>
                 <p class="font-semibold">Wireframe</p>
-                <p class="text-secondary">Setelah melakukan research, tahap selanjutnya adalah membuat wireframe. Saya membuat wireframe dengan Figma. Berikut adalah tampilan wireframe yang telah dibuat meliputi halaman home, detail playlist dan detail lagu.</p>
+                <p class="text-secondary text-sm lg:text-base">Setelah melakukan research, tahap selanjutnya adalah membuat wireframe. Saya membuat wireframe dengan Figma. Berikut adalah tampilan wireframe yang telah dibuat meliputi halaman home, detail playlist dan detail lagu.</p>
                 <img src="dist/img/portfolios/portfolio_20_wireframes.png" alt="Musics Player Mobile Mockup">
                 <br>
                 <p class="font-semibold">Result</p>
-                <p class="text-secondary">Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
+                <p class="text-secondary text-sm lg:text-base">Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
             `,
         },
     // API Movie

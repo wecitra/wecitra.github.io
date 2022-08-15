@@ -689,6 +689,10 @@ html {
   margin-right: 0.5rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -741,16 +745,24 @@ html {
   width: 100vw;
 }
 
-.w-\[350px\] {
-  width: 350px;
+.w-\[80vw\] {
+  width: 80vw;
 }
 
 .w-5 {
   width: 1.25rem;
 }
 
+.w-\[100vw\] {
+  width: 100vw;
+}
+
 .w-6 {
   width: 1.5rem;
+}
+
+.w-\[90vw\] {
+  width: 90vw;
 }
 
 .-translate-x-1\/2 {
@@ -899,6 +911,16 @@ html {
   padding-bottom: 0.75rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -991,9 +1013,35 @@ html {
   color: rgb(29 155 240 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .sm\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:w-\[650px\] {
     width: 650px;
+  }
+
+  .md\:w-\[80vw\] {
+    width: 80vw;
+  }
+
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
