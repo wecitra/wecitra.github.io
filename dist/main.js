@@ -33,7 +33,7 @@ function updateDialog(project) {
         d.innerHTML = `
             <h1 class="text-xl lg:text-2xl font-semibold -mb-3">${project.title}</h1>
             <div class="mb-4">
-                ${project.desc ? project.desc : `<p class="text-secondary">${project.excerpt}</p>`}
+                ${project.desc ? project.desc : `<p class="text-secondary text-sm lg:text-base">${project.excerpt}</p>`}
             </div>
             <img src="dist/img/portfolios/${project.image}" alt="${project.title}">
 
