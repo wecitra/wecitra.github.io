@@ -1,5 +1,6 @@
 export let projects = [
     {
+        // B-log
         title: 'Build A Blog App With Laravel',
         image: 'portfolio_13.png',
         excerpt: 'B-log is a website that allows to post, edit, save and view blog posts, created to completed learning Laravel Basic.',
@@ -7,13 +8,28 @@ export let projects = [
         github: 'https://github.com/doobeedoobeedam/b-log',
         status: true,
     },
+    // Bekasi City Dashboard
     {
         title: 'Bekasi City Dashboard',
         url: 'https://satudata.bekasikota.go.id/CityDashboard',
         image: 'portfolio_4.png',
-        excerpt: 'Bekasi City Dashboard is landing page and also my first assignment during my internship at PT. Ciptadra Softindo.',
+        excerpt: 'Bekasi City Dashboard adalah landing page yang dibuat di hari pertama saya magang di PT. Ciptadra Softindo.',
+        desc: `
+            <p class="text-secondary">Pada hari pertama magang, saya ditugaskan membuat sebuah landing page untuk Bekasi City Dashboard. Dimana tugas ini mengalami tiga kali revisi, seperti penambahan animasi, perubahan warna dan perubahan isi konten.</p>
+            <br>
+            <p class="text-secondary">Supaya menghemat waktu, saya membuat landing page ini dengan Bootstrap dan AOS untuk membuat efek animasinya.</p>
+            <br>
+            <p class="font-semibold">Research</p>
+            <p class="text-secondary">Research adalah tahap pertama yang dilakukan dalam proses pembuatan landing page ini. Di sini saya menentukan ilustrasi, ikon, font dan memilih warna yang akan digunakan.</p>
+            <img src="dist/img/portfolios/portfolio_4_guide.png" alt="Bekasi City Dashboard">
+            <p class="font-semibold">Wireframe & Mockup</p>
+            <p class="text-secondary">Berikutnya adalah membuat Wireframe dan Mockup. Keduanya dibuat menggunakan Figma.</p>
+            <img src="dist/img/portfolios/portfolio_4_wireframe_mockup.png" alt="Bekasi City Dashboard">
+            <p class="font-semibold">Result</p>
+            <p class="text-secondary">Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
         tag: '#Bootstrap #CSS',
     },
+    // Pande.log
     {
         title: 'Pande.log',
         github: 'https://github.com/doobeedoobeedam/pande.log/',
@@ -21,6 +37,7 @@ export let projects = [
         excerpt: 'Pande.log is a travel log web application that created to finished Uji Kompetensi Keahlian 2022.',
         tag: '#CodeIgniter #JavaScript #Bootstrap #CSS',
     },
+    // Web Visual Identity
     {
         title: 'Web Visual Identity',
         url: 'https://doobeedoobeedam.github.io/visual-identity-webpage/',
@@ -53,6 +70,28 @@ export let projects = [
             <p class="text-secondary">Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
         tag: '#JavaScript #Bootstrap #CSS',
     },
+        // Musics Player Mobile Mockup
+        {
+            title: 'Musics Player Mobile Mockup',
+            image: 'portfolio_20.png',
+            excerpt: 'Untuk membuat musik dapat dinikmati dalam keheningan jam senja dibutuhkan sebuah aplikasi pemutar musik ...',
+            tag: '#Design #UI #Figma',
+            desc: `
+                <p class="text-secondary">Alam, melalui semua kedalamannya, penuh dengan musik — bervariasi dalam nada dan kaya akan melodi. Untuk membuat musik dapat dinikmati dalam keheningan jam senja ; dalam suara angin sepoi-sepoi yang sejuk ; di air mancur pedalaman ; dalam riak-riak dari ambang gunung dan di pinggir laut yang ditimpa badai dibutuhkan sebuah aplikasi pemutar musik yang telah diinstal pada smartphone yang dimiliki lebih dari 83% populasi manusia. Oleh karena itu saya merancang desain aplikasi pemutar musik ini.</p>
+                <br>
+                <p class="font-semibold">Research</p>
+                <p class="text-secondary">Tahap pertama yang dilakukan dalam proses desain adalah research. Di sini saya mencari ide melalui Dribbble. Kemudian menentukan ikon, tipografi dan pemilihan warna yang akan digunakan.</p>
+                <br>
+                <img src="dist/img/portfolios/portfolio_20_guide.png" alt="Musics Player Mobile Mockup">
+                <br>
+                <p class="font-semibold">Wireframe</p>
+                <p class="text-secondary">Setelah melakukan research, tahap selanjutnya adalah membuat wireframe. Saya membuat wireframe dengan Figma. Berikut adalah tampilan wireframe yang telah dibuat meliputi halaman home, detail playlist dan detail lagu.</p>
+                <img src="dist/img/portfolios/portfolio_20_wireframes.png" alt="Musics Player Mobile Mockup">
+                <br>
+                <p class="font-semibold">Result</p>
+                <p class="text-secondary">Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
+            `,
+        },
     // API Movie
     {
         title: 'API Movie',
@@ -115,28 +154,6 @@ export let projects = [
         image: 'portfolio_12.png',
         excerpt: 'Trying to create a project with Tailwind plugin, Flowbit.',
         tag: '#Tailwind #CSS #Flowbit',
-    },
-    // Musics Player Mobile Mockup
-    {
-        title: 'Musics Player Mobile Mockup',
-        image: 'portfolio_20.png',
-        excerpt: 'Untuk membuat musik dapat dinikmati dalam keheningan jam senja dibutuhkan sebuah aplikasi pemutar musik ...',
-        tag: '#Design #UI #Figma',
-        desc: `
-            <p class="text-secondary">Alam, melalui semua kedalamannya, penuh dengan musik — bervariasi dalam nada dan kaya akan melodi. Untuk membuat musik dapat dinikmati dalam keheningan jam senja ; dalam suara angin sepoi-sepoi yang sejuk ; di air mancur pedalaman ; dalam riak-riak dari ambang gunung dan di pinggir laut yang ditimpa badai dibutuhkan sebuah aplikasi pemutar musik yang telah diinstal pada smartphone yang dimiliki lebih dari 83% populasi manusia. Oleh karena itu saya merancang desain aplikasi pemutar musik ini.</p>
-            <br>
-            <p class="font-semibold">Research</p>
-            <p class="text-secondary">Tahap pertama yang dilakukan dalam proses desain adalah research. Di sini saya mencari ide melalui Dribbble. Kemudian menentukan ikon, tipografi dan pemilihan warna yang akan digunakan.</p>
-            <br>
-            <img src="dist/img/portfolios/portfolio_20_guide.png" alt="Musics Player Mobile Mockup">
-            <br>
-            <p class="font-semibold">Wireframe</p>
-            <p class="text-secondary">Setelah melakukan research, tahap selanjutnya adalah membuat wireframe. Saya membuat wireframe dengan Figma. Berikut adalah tampilan wireframe yang telah dibuat meliputi halaman home, detail playlist dan detail lagu.</p>
-            <img src="dist/img/portfolios/portfolio_20_wireframes.png" alt="Musics Player Mobile Mockup">
-            <br>
-            <p class="font-semibold">Result</p>
-            <p class="text-secondary">Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
-        `,
     },
     {
         title: 'Habits Mobile Mockup',

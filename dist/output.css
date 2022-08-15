@@ -725,18 +725,6 @@ html {
   max-height: 80vh;
 }
 
-.max-h-\[90vh\] {
-  max-height: 90vh;
-}
-
-.max-h-\[85vh\] {
-  max-height: 85vh;
-}
-
-.max-h-\[83vh\] {
-  max-height: 83vh;
-}
-
 .w-full {
   width: 100%;
 }
@@ -1078,8 +1066,8 @@ html {
     width: 3rem;
   }
 
-  .lg\:w-\[900px\] {
-    width: 900px;
+  .lg\:w-\[950px\] {
+    width: 950px;
   }
 
   .lg\:w-7 {
@@ -1088,14 +1076,6 @@ html {
 
   .lg\:w-1\/2 {
     width: 50%;
-  }
-
-  .lg\:w-\[1000px\] {
-    width: 1000px;
-  }
-
-  .lg\:w-\[950px\] {
-    width: 950px;
   }
 
   .lg\:flex-wrap {
