@@ -689,10 +689,6 @@ html {
   margin-right: 0.5rem;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
 .block {
   display: block;
 }
@@ -745,24 +741,16 @@ html {
   width: 100vw;
 }
 
-.w-\[80vw\] {
-  width: 80vw;
+.w-\[90vw\] {
+  width: 90vw;
 }
 
 .w-5 {
   width: 1.25rem;
 }
 
-.w-\[100vw\] {
-  width: 100vw;
-}
-
 .w-6 {
   width: 1.5rem;
-}
-
-.w-\[90vw\] {
-  width: 90vw;
 }
 
 .-translate-x-1\/2 {
@@ -840,12 +828,12 @@ html {
 
 .border-b-light {
   --tw-border-opacity: 1;
-  border-bottom-color: rgb(248 248 248 / var(--tw-border-opacity));
+  border-bottom-color: rgb(240 240 240 / var(--tw-border-opacity));
 }
 
 .border-t-light {
   --tw-border-opacity: 1;
-  border-top-color: rgb(248 248 248 / var(--tw-border-opacity));
+  border-top-color: rgb(240 240 240 / var(--tw-border-opacity));
 }
 
 .bg-primary {
@@ -855,7 +843,7 @@ html {
 
 .bg-light {
   --tw-bg-opacity: 1;
-  background-color: rgb(248 248 248 / var(--tw-bg-opacity));
+  background-color: rgb(240 240 240 / var(--tw-bg-opacity));
 }
 
 .bg-secondary {
@@ -909,16 +897,6 @@ html {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .pb-4 {
@@ -976,7 +954,7 @@ html {
 
 .text-dark {
   --tw-text-opacity: 1;
-  color: rgb(20 29 38 / var(--tw-text-opacity));
+  color: rgb(21 32 43 / var(--tw-text-opacity));
 }
 
 .text-secondary {
@@ -1013,35 +991,9 @@ html {
   color: rgb(29 155 240 / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  .sm\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-}
-
 @media (min-width: 768px) {
-  .md\:w-\[650px\] {
-    width: 650px;
-  }
-
   .md\:w-\[80vw\] {
     width: 80vw;
-  }
-
-  .md\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .md\:py-6 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
   }
 }
 
@@ -1140,7 +1092,7 @@ html {
 
   .lg\:border-l-light {
     --tw-border-opacity: 1;
-    border-left-color: rgb(248 248 248 / var(--tw-border-opacity));
+    border-left-color: rgb(240 240 240 / var(--tw-border-opacity));
   }
 
   .lg\:px-28 {

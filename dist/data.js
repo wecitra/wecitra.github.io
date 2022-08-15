@@ -1,7 +1,7 @@
 export let projects = [
+    // B-log
     {
-        // B-log
-        title: 'Build A Blog App With Laravel',
+        title: 'B-log',
         image: 'portfolio_13.png',
         excerpt: 'B-log is a website that allows to post, edit, save and view blog posts, created to completed learning Laravel Basic.',
         tag: '#Laravel #JavaScript #CSS #Bootstrap',
@@ -22,9 +22,11 @@ export let projects = [
             <p class="font-semibold">Research</p>
             <p class="text-secondary text-sm lg:text-base">Research adalah tahap pertama yang dilakukan dalam proses pembuatan landing page ini. Di sini saya menentukan ilustrasi, ikon, font dan memilih warna yang akan digunakan.</p>
             <img src="dist/img/portfolios/portfolio_4_guide.png" alt="Bekasi City Dashboard">
+            <br>
             <p class="font-semibold">Wireframe & Mockup</p>
             <p class="text-secondary text-sm lg:text-base">Berikutnya adalah membuat Wireframe dan Mockup. Keduanya dibuat menggunakan Figma.</p>
             <img src="dist/img/portfolios/portfolio_4_wireframe_mockup.png" alt="Bekasi City Dashboard">
+            <br>
             <p class="font-semibold">Result</p>
             <p class="text-secondary text-sm lg:text-base">Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
         tag: '#Bootstrap #CSS',
@@ -34,7 +36,25 @@ export let projects = [
         title: 'Pande.log',
         github: 'https://github.com/doobeedoobeedam/pande.log/',
         image: 'portfolio_7.png',
-        excerpt: 'Pande.log is a travel log web application that created to finished Uji Kompetensi Keahlian 2022.',
+        excerpt: 'Pande.log merupakan sebuah aplikasi berbasis website yang dibuat untuk menyelesaikan Uji Kompetensi Keahlian ...',
+        desc: `
+            <p class="text-secondary text-sm lg:text-base">Pande.log merupakan sebuah aplikasi berbasis website yang dibangun sebagai sistem informasi pengelolaan catatan perjalanan sehingga catatan yang ada dapat terintegrasi dengan baik. Aplikasi ini dibuat dengan menggunakan bahasa pemrograman PHP, framework Codeigniter 4 dan database MySQL.</p>
+            <br>
+            <p class="text-secondary text-sm lg:text-base">Pande.log juga dibuat untuk menyelesaikan Uji Kompetensi Keahlian 2021/2022 yang diadakan oleh Konsorsium SKK BONET.</p>
+            <br>
+            <p class="font-semibold">Level User</p>
+            <p class="text-secondary text-sm lg:text-base">Terdapat dua user dalam aplikasi ini, yaitu user admin dan user general dengan pembagian privileges sebagai berikut:</p>
+            <br>
+            <img src="dist/img/portfolios/privileges.png" alt="Pande.log">
+            <br>
+            <p class="font-semibold">Mockup</p>
+            <p class="text-secondary text-sm lg:text-base">Berikut adalah rancangan mockup tampilan dari beberapa halaman di aplikasi ini, meliputi halaman signup, signin, beranda, daftar catatan, tambah catatan dan ubah catatan. Mockup ini dibuat dengan bantuan Figma.</p>
+            <br>
+            <img src="dist/img/portfolios/mockups.png" alt="Pande.log">
+            <br>
+            <p class="font-semibold">Result</p>
+            <p class="text-secondary text-sm lg:text-base">Berikut adalah hasil akhir dari pada proyek kali ini.</p>
+        `,
         tag: '#CodeIgniter #JavaScript #Bootstrap #CSS',
     },
     // Web Visual Identity
@@ -70,8 +90,8 @@ export let projects = [
             <p class="text-secondary text-sm lg:text-base">Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
         tag: '#JavaScript #Bootstrap #CSS',
     },
-        // Musics Player Mobile Mockup
-        {
+    // Musics Player Mobile Mockup
+    {
             title: 'Musics Player Mobile Mockup',
             image: 'portfolio_20.png',
             excerpt: 'Untuk membuat musik dapat dinikmati dalam keheningan jam senja dibutuhkan sebuah aplikasi pemutar musik ...',
@@ -91,7 +111,7 @@ export let projects = [
                 <p class="font-semibold">Result</p>
                 <p class="text-secondary text-sm lg:text-base">Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
             `,
-        },
+    },
     // API Movie
     {
         title: 'API Movie',
