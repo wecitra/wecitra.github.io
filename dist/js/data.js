@@ -16,7 +16,7 @@ export let projects = [
         excerpt: 'Warta! adalah sistem informasi berbasis web application untuk menyampaikan sebuah laporan pengaduan ...',
         desc: '<p class="desc">Warta! adalah sistem informasi berbasis web application untuk menyampaikan sebuah laporan pengaduan atau keluhan.</p>',
         tag: '#Laravel #JavaScript #Tailwind #CSS',
-        github: 'https://github.com/doobeedoobeedam/sarana-pengaduan-masyarakat',
+        github: 'https://github.com/doobeedoobeedam/warta',
     },
     // Pande.log
     {
