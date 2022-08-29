@@ -122,6 +122,15 @@ export let projects = [
         excerpt: 'Visual personal data presents like a website portfolio.',
         tag: '#JavaScript #Bootstrap #CSS',
     },
+    // Weather Web
+    {
+        title: 'Weather Web',
+        url: 'https://doobeedoobeedam.github.io/weather-web/',
+        github: 'https://github.com/doobeedoobeedam/weather-web',
+        image: 'portfolio_22.png',
+        excerpt: 'Weather Web with OpenWeatherMap API.',
+        tag: '#API #JavaScript #CSS',
+    },
     // Old Personal Website
     {
         title: 'Old Personal Website',
