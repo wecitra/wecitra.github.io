@@ -8,6 +8,7 @@ export let projects = [
         tag: '#Laravel #JavaScript #Bootstrap #CSS',
         github: 'https://github.com/doobeedoobeedam/b-log',
         status: true,
+        category: 'dev'
     },
     // Warta
     {
@@ -17,6 +18,7 @@ export let projects = [
         desc: '<p class="desc">Warta! adalah sistem informasi berbasis web application untuk menyampaikan sebuah laporan pengaduan atau keluhan.</p>',
         tag: '#Laravel #JavaScript #Tailwind #CSS',
         github: 'https://github.com/doobeedoobeedam/warta',
+        category: 'dev'
     },
     // Pande.log
     {
@@ -43,6 +45,7 @@ export let projects = [
                 <p class="desc">Berikut adalah hasil akhir dari pada proyek kali ini.</p>
             `,
         tag: '#CodeIgniter #JavaScript #Bootstrap #CSS',
+        category: 'dev'
     },
     // Bekasi City Dashboard
     {
@@ -66,6 +69,7 @@ export let projects = [
             <p class="font-semibold">Result</p>
             <p class="desc">Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
         tag: '#Bootstrap #CSS',
+        category: 'dev'
     },
     // Hostingin
     {
@@ -90,6 +94,7 @@ export let projects = [
             <p class="font-semibold">Result</p>
             <p class="desc">Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
         tag: '#JavaScript #Bootstrap #CSS',
+        category: 'dev'
     },
     // Musics Player Mobile Mockup
     {
@@ -112,6 +117,7 @@ export let projects = [
                 <p class="font-semibold">Result</p>
                 <p class="desc">Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
             `,
+            category: 'design'
     },
     // Web Visual Identity
     {
@@ -121,6 +127,7 @@ export let projects = [
         image: 'portfolio_1.png',
         excerpt: 'Visual personal data presents like a website portfolio.',
         tag: '#JavaScript #Bootstrap #CSS',
+        category: 'dev'
     },
     // Weather Web
     {
@@ -130,6 +137,7 @@ export let projects = [
         image: 'portfolio_22.png',
         excerpt: 'Weather Web with OpenWeatherMap API.',
         tag: '#API #JavaScript #CSS',
+        category: 'dev'
     },
     // Old Personal Website
     {
@@ -139,6 +147,7 @@ export let projects = [
         image: 'portfolio_16.png',
         excerpt: 'My old website.',
         tag: '#JavaScript #Bootstrap #CSS #OwlCarousel #ScrollReveal',
+        category: 'dev'
     },
     // API Movie
     {
@@ -148,6 +157,7 @@ export let projects = [
         image: 'portfolio_15.png',
         excerpt: 'Responsive tailwind movies app.',
         tag: '#API #JavaScript #Tailwind #CSS',
+        category: 'dev'
     },
     // Random Quotes API
     {
@@ -157,6 +167,7 @@ export let projects = [
         image: 'portfolio_19.png',
         excerpt: 'An API full of quotes to bring some joy to your day!',
         tag: '#API #JavaScript #CSS',
+        category: 'dev'
     },
     // Creative Business Landing Page
     {
@@ -166,6 +177,7 @@ export let projects = [
         image: 'portfolio_9.png',
         excerpt: '1st trying to make a landing page with Tailwind.',
         tag: '#Tailwind #CSS',
+        category: 'dev'
     },
     // Joke Maker
     {
@@ -175,6 +187,7 @@ export let projects = [
         image: 'portfolio_11.png',
         excerpt: 'Simple project built with API, JS & CSS.',
         tag: '#API #JavaScript #CSS',
+        category: 'dev'
     },
     // Essences for Life
     {
@@ -184,6 +197,7 @@ export let projects = [
         image: 'portfolio_10.png',
         excerpt: '2nd trying to make a landing page with Tailwind.',
         tag: '#Tailwind #CSS #Flowbit',
+        category: 'dev'
     },
     // 17's TV Dashboard
     {
@@ -193,6 +207,7 @@ export let projects = [
         image: 'portfolio_12.png',
         excerpt: 'Trying to create a project with Tailwind plugin, Flowbit.',
         tag: '#Tailwind #CSS #Flowbit',
+        category: 'dev'
     },
     {
         title: 'Habits Mobile Mockup',
@@ -200,6 +215,7 @@ export let projects = [
         image: 'portfolio_8.png',
         excerpt: 'Make it with the figma tool with a bit of seriousness.',
         tag: '#Design #UI #Figma',
+        category: 'design'
     },
     {
         title: 'Portfolio Web Mockup',
@@ -207,6 +223,7 @@ export let projects = [
         image: 'portfolio_6.png',
         excerpt: 'This design also was created with figma.',
         tag: '#Design #UI #Figma',
+        category: 'design'
     },
     {
         title: 'ScissorsRockPaper.js',
@@ -215,6 +232,7 @@ export let projects = [
         image: 'portfolio_17.png',
         excerpt: 'This is mini projects for me to learn basic of JS DOM.',
         tag: '#JavaScript #CSS',
+        category: 'dev'
     },
     {
         title: 'Simple Calculator',
@@ -223,6 +241,7 @@ export let projects = [
         image: 'portfolio_18.png',
         excerpt: 'Simple calculator made in vanilla JS and HTML.',
         tag: '#JavaScript #CSS',
+        category: 'dev'
     },
     {
         title: 'Simple To Do',
@@ -231,10 +250,13 @@ export let projects = [
         image: 'portfolio_14.png',
         excerpt: 'This To Do is built with JS & CSS.',
         tag: '#JavaScript #CSS',
+        category: 'dev'
     },
 ];
 
-export let skills = ['Desain UI', 'HTML', 'CSS', 'Sass', 'Bootstrap', 'Tailwind', 'JavaScript', 'DOM', 'Git', 'CodeIgniter', 'Laravel', 'MySQL', 'Rest API'];
+export let skills = [
+    'Desain UI', 'HTML', 'CSS', 'Sass', 'Bootstrap', 'Tailwind', 'JavaScript', 'DOM', 'Git', 'SQL', 'OOP', 'MVC', 'CodeIgniter', 'Laravel'
+];
 
 export let experiences = [
     // Intern
@@ -245,26 +267,45 @@ export let experiences = [
         what: 'Web Developer Intern',
         detail: 'Assisted in the development of web and mobile design pages and monitored application development with quality control.',
     },
+    // Web Development Fundamentals - SoloLearn
+    {
+        when: 'August 2022',
+        where: 'SoloLearn',
+        proof: 'dist/img/experiences/Web Development Fundamentals - SoloLearn.pdf',
+        what: 'Web Development Fundamentals',
+        detail: 'The Web Development Fundamentals course covers the basic technologies needed to build web pages, including HTML, CSS, and JavaScript.'
+    },
+    // jQuery - SoloLearn
+    {
+        when: 'August 2022',
+        where: 'SoloLearn',
+        proof: 'dist/img/experiences/jQuery Course - SoloLearn.pdf',
+        what: 'jQuery Course',
+        detail: 'Learn all the core features of jQuery, including how to make websites more interactive, creating effects and animations, handling events, and more!',
+    },
     // Responsive Web Design - SoloLearn
     {
         when: 'August 2022',
         where: 'SoloLearn',
         proof: 'dist/img/experiences/Responsive Web Design Course - SoloLearn.pdf',
-        what: 'Responsive Web Design Course'
+        what: 'Responsive Web Design Course',
+        detail: 'The practice of building websites that can adapt to every device and every screen size.',
     },
     // CSS - SoloLearn
     {
         when: 'August 2022',
         where: 'SoloLearn',
         proof: 'dist/img/experiences/CSS Course - SoloLearn.pdf',
-        what: 'CSS Course'
+        what: 'CSS Course',
+        detail: 'This CSS course teach me how to control the style & layout of websites, completed a series of exercises and practice.',
     },
     // HTML - SoloLearn
     {
         when: 'August 2022',
         where: 'SoloLearn',
         proof: 'dist/img/experiences/HTML Course - SoloLearn.pdf',
-        what: 'HTML Course'
+        what: 'HTML Course',
+        detail: 'This course teach me how to design a web page using HTML.',
     },
     // Responsive Web Design - Freecodecamp
     {
