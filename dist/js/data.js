@@ -267,12 +267,20 @@ export let experiences = [
         what: 'Web Developer Intern',
         detail: 'Assisted in the development of web and mobile design pages and monitored application development with quality control.',
     },
+    // UI/UX Fundamentals - camp404
+    {
+        when: 'September 2022',
+        where: 'Camp 404',
+        proof: 'dist/img/experiences/UI UX Design Fundamentals - Camp 404.pdf',
+        what: 'UI/UX Fundamentals Course',
+        detail: 'This hands-on course examines how content is organized and structured to create an experience for a user, and what role the designer plays in creating and shaping user experience.'
+    },
     // Web Development Fundamentals - SoloLearn
     {
         when: 'August 2022',
         where: 'SoloLearn',
         proof: 'dist/img/experiences/Web Development Fundamentals - SoloLearn.pdf',
-        what: 'Web Development Fundamentals',
+        what: 'Web Development Fundamentals Course',
         detail: 'The Web Development Fundamentals course covers the basic technologies needed to build web pages, including HTML, CSS, and JavaScript.'
     },
     // jQuery - SoloLearn

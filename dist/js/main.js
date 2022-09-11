@@ -8,7 +8,7 @@ experiences.map((experience) => { $("#experiences").append(`
         <div class="self-center mb-3">
             <span class="text-xs">${experience.when} • <a href="${experience.proof}" class="text-primary">${experience.where}</a></span>
             <h1 class="font-semibold">${experience.what}</h1>
-            ${experience.detail ? `<span class="text-sm">${experience.detail}</span>` : ''}
+            ${experience.detail ? `<span class="text-sm text-justify">${experience.detail}</span>` : ''}
         </div>
     </div>`);
 });
@@ -18,7 +18,8 @@ $("#all-projects").html(showProjects(projects));
 
 ScrollReveal().reveal('#skills span', { interval: 100, reset: true });
 ScrollReveal().reveal('.img-profile', { rotate: {x: 45, y: 45, z: 0 }, duration: 1000, reset: true });
-ScrollReveal().reveal(`.experience, .open, .all-projects .open`, { origin: 'left', distance: '30px', interval: 100, reset: true});
+ScrollReveal().reveal(`.open, .all-projects .open`, { origin: 'left', distance: '30px', interval: 100, reset: true});
+ScrollReveal().reveal(`.experience`, { origin: 'right', distance: '30px', interval: 100, reset: true});
 
 $(".open").click(function () { openModal($(this).data('index')); });
 
