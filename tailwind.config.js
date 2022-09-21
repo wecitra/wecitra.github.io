@@ -7,10 +7,8 @@ module.exports = {
       'white': '#ffffff',
       'primary': '#31C3C3',
       'secondary': '#666666',
-      'light': '#F0F0F0',
+      'light': '#F3F3F3',
       'dark': '#15202B',
-      'deep': '#1E2732',
-      'danger': '#FF1D48'
     },
     fontFamily: {
       'sans': ['Roboto', 'sans-serif'],

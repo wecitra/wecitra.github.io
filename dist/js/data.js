@@ -7,7 +7,6 @@ export let projects = [
         desc: '<p class="desc">B-log adalah aplikasi berbasis website yang memungkinkan untuk memposting, mengedit, menyimpan dan melihat postingan blog. Dibuat dalam rangka menuntaskan pembelajaran Laravel Basic.</p>',
         tag: '#Laravel #JavaScript #Bootstrap #CSS',
         github: 'https://github.com/doobeedoobeedam/b-log',
-        status: true,
         category: 'dev'
     },
     // Warta
