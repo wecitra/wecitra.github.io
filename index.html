@@ -18,13 +18,13 @@
 </head>
 
 <body>
-    <header class="bg-fixed bg-no-repeat w-full h-20 lg:h-36 relative"  style="background-image: url('/dist/img/hero-pattern.jpeg')">
-        <div class="px-5 lg:px-28">
+    <header class="bg-fixed bg-cover bg-center bg-no-repeat w-full h-20 lg:h-36 relative"  style="background-image: url('/dist/img/hero-pattern.jpeg'); width: 100%;">
+        <div class="px-5 lg:px-10">
             <div class="absolute -bottom-7 lg:-bottom-14 px-3">
                 <img src="dist/img/profile.jpeg" alt="Kusuma Wecitra"
                     class="img-profile w-20 h-20 lg:w-32 lg:h-32 border-4 border-white rounded-full">
             </div>
-            <div class="absolute -bottom-11 lg:-bottom-12 right-4 lg:right-28">
+            <div class="absolute -bottom-11 lg:-bottom-12 right-4 lg:right-14">
                 <div class="flex justify-end [&>a]:rounded-full [&>a]:px-2 [&>a]:py-2 [&>a]:font-semibold [&>a]:text-sm [&>a]:lg:text-lg [&>a]:bg-primary [&>a]:text-white">
                     <a href="https://github.com/doobeedoobeedam" class="text-primary transition ease-in-out delay-75">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
@@ -39,76 +39,45 @@
 
     <!-- Profile Info -->
     <div class="w-full border-b-2 border-b-light">
-        <div class="px-5 lg:px-28">
-            <div class="mt-11 lg:mt-16">
+        <div class="px-5 lg:px-10">
+            <div class="mt-8 lg:mt-[4rem]">
                 <h1 class="font-bold text-dark lg:text-xl">Kusuma Wecitra</h1>
                 <h1 class="font-light text-secondary text-sm lg:text-base mb-3">@04092003</h1>
                 <p class="text-secondary text-sm lg:text-base mb-3 [&>a]:text-primary">
                     If you want to reach me then feel free to hit me up on <a href="mailto:wecitra49@gmail.com">email</a>. You can also see some of my works on the project page on my website or <a href="https://github.com/doobeedoobeedam" target="_blank">my Github profile</a>.
 
-                    Well, I guess that’s about it. Thanks for visiting my website and I hope you found something useful here. Have a wonderful day! ς(>‿<.)
+                    <br>Well, I guess that’s about it. Thanks for visiting my website and I hope you found something useful here. Have a wonderful day! ς(>‿<.)
                 </p>
             </div>
         </div>
     </div>
 
-    <div class="lg:flex lg:px-28">
-        <div class="w-full lg:w-[37%] p-5 border-b-2 border-b-light lg:order-last lg:border-l-2 lg:border-l-light lg:border-b-0">
+    <div class="lg:flex lg:px-5">
+        <div class="w-full lg:w-[30%] p-5 border-b border-b-light lg:order-last lg:border-l-2 lg:border-l-light lg:border-b-0">
 
             <!-- Skills -->
-            <div class="bg-light p-5 rounded-xl mb-5">
-                <h1 class="text-2xl font-bold mb-4">Skills</h1>
-                <div class="flex flex-wrap [&>*]:bg-primary [&>*]:font-medium [&>*]:text-white [&>*]:mr-2 [&>*]:mb-2 [&>*]:px-3 [&>*]:rounded-md" id="skills"></div>
+            <div class="bg-light p-5 rounded-md mb-5">
+                <h1 class="text-xl font-bold mb-4">Skills</h1>
+                <div class="flex flex-wrap [&>*]:bg-primary [&>*]:font-medium [&>*]:text-white [&>*]:mr-2 [&>*]:mb-2 [&>*]:px-3 [&>*]:rounded-md [&>*]:text-sm" id="skills"></div>
             </div>
 
             <!-- Experiences -->
-            <div class="bg-light p-5 rounded-xl mb-5" id="experiences">
-                <h1 class="text-2xl font-bold mb-4">Experiences</h1>
+            <div class="bg-light p-5 rounded-md mb-5" id="experiences">
+                <h1 class="text-xl font-bold mb-4">Experiences</h1>
             </div>
 
             <span class="text-sm text-secondary hidden lg:inline-block">© 2022 Kusuma Wecitra</span>
         </div>
 
         <!-- Projects -->
-        <div class="w-full lg:w-[63%]">
-            <div class="p-5">
-                <div data-index="0" class="cursor-pointer open">
-                    <div class="flex mb-4 border-b-2 border-b-light">
-                        <img src="dist/img/profile.jpeg" alt="Kusuma Wecitra" class="w-8 h-8 lg:w-12 lg:h-12 rounded-full mr-3">
-                        <div class="self-center mb-5">
-                            <h1 class="font-semibold">B-log</h1>
-                            <span class="text-sm lg:text-base text-secondary block">B-log adalah aplikasi berbasis website yang memungkinkan untuk memposting, mengedit, menyimpan dan melihat ...</span>
-                            <span class="text-sm text-primary block mb-3">#Laravel #JavaScript #Bootstrap #CSS</span>
-                            <img src="dist/img/portfolios/portfolio_13.png" alt="B-log">
-                        </div>
-                    </div>
-                </div>
-                <div data-index="2" class="cursor-pointer open">
-                    <div class="flex mb-4 border-b-2 border-b-light">
-                        <img src="dist/img/profile.jpeg" alt="Kusuma Wecitra" class="w-8 h-8 lg:w-12 lg:h-12 rounded-full mr-3">
-                        <div class="self-center mb-5">
-                            <h1 class="font-semibold">Pande.log</h1>
-                            <span class="text-sm lg:text-base text-secondary block">Pande.log merupakan sebuah aplikasi berbasis website yang dibuat untuk menyelesaikan Uji Kompetensi Keahlian ...</span>
-                            <span class="text-sm text-primary block mb-3">#CodeIgniter #JavaScript #Bootstrap #CSS</span>
-                            <img src="dist/img/portfolios/portfolio_7.png" alt="Pande.log">
-                        </div>
-                    </div>
-                </div>
-                <div data-index="4" class="cursor-pointer open">
-                    <div class="flex mb-4 border-b-2 border-b-light group">
-                        <img src="dist/img/profile.jpeg" alt="Kusuma Wecitra" class="w-8 h-8 lg:w-12 lg:h-12 rounded-full mr-3">
-                        <div class="self-center mb-5">
-                            <h1 class="font-semibold">Hostingin</h1>
-                            <span class="text-sm lg:text-base text-secondary block">Pada proyek kali ini, saya melakukan pembuatan halaman Web Hosting. Pemrograman dilakukan dengan menggunakan ...</span>
-                            <span class="text-sm text-primary block mb-3">#JavaScript #Bootstrap #CSS</span>
-                            <img src="dist/img/portfolios/portfolio_5.png" alt="Hostingin">
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-4 flex justify-center">
-                    <a href="projects.html" class="text-primary text-center">Show another projects</a>
-                </div>
+        <div class="w-full lg:w-[70%] p-5">
+            <div id="mixitup-filters" class="flex border-b border-b-light mb-6 [&>div]:text-sm [&>div]:lg:text-base [&>div]:px-5 [&>div]:py-1 my-3">
+                <div data-filter="all" class="mixitup-filter text-white font-semibold bg-primary rounded-t-md cursor-pointer">All</div>
+                <div data-filter=".design" class="mixitup-filter mx-4 text-secondary cursor-pointer">Design</div>
+                <div data-filter=".dev" class="mixitup-filter text-secondary cursor-pointer">Dev</div>
             </div>
+        
+            <div id="all-projects" class="projects lg:grid lg:grid-cols-2 lg:gap-3"></div>
         </div>
     </div>
 
@@ -117,6 +86,7 @@
 
     <script src="dist/js/scrollreveal.js"></script>
     <script src="dist/js/jquery.js"></script>
+    <script src="dist/js/mixitup.js"></script>
     <script src="dist/js/main.js" type="module"></script>
 </body>
 </html>

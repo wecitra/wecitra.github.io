@@ -2,12 +2,14 @@ import { skills } from './data.js';
 skills.map((skill) => { $("#skills").append(`<span>${skill}</span>`); });
 
 import { experiences } from './data.js';
+
+// Experiences
 experiences.map((experience) => { $("#experiences").append(`
     <div class="experience flex mb-4 [&>*>span]:text-secondary">
-        <img src="dist/img/tag.png" alt="" class="w-8 h-8 rounded-full mr-3 bg-primary">
+        <img src="dist/img/tag.png" alt="Experience" class="w-6 h-6 rounded-full mr-3 bg-primary mt-2">
         <div class="self-center mb-3">
             <span class="text-xs">${experience.when} • <a href="${experience.proof}" class="text-primary">${experience.where}</a></span>
-            <h1 class="font-semibold">${experience.what}</h1>
+            <h1 class="font-semibold text-sm">${experience.what}</h1>
             ${experience.detail ? `<span class="text-sm text-justify">${experience.detail}</span>` : ''}
         </div>
     </div>`);
@@ -18,7 +20,7 @@ $("#all-projects").html(showProjects(projects));
 
 ScrollReveal().reveal('#skills span', { interval: 100, reset: true });
 ScrollReveal().reveal('.img-profile', { rotate: {x: 45, y: 45, z: 0 }, duration: 1000, reset: true });
-ScrollReveal().reveal(`.open, .all-projects .open`, { origin: 'left', distance: '30px', interval: 100, reset: true});
+ScrollReveal().reveal(`.open`, { origin: 'left', distance: '30px', interval: 100, reset: true});
 ScrollReveal().reveal(`.experience`, { origin: 'right', distance: '30px', interval: 100, reset: true});
 
 $(".open").click(function () { openModal($(this).data('index')); });
@@ -57,24 +59,17 @@ function updateDialog(project) {
 
 function showProjects(projects) {
     return `
-    <div class="p-5 border-b-2 border-b-light lg:flex lg:flex-wrap projects">
         ${projects.map((project, i) => `
-            <div data-index="${i}" class="lg:w-1/2 relative cursor-pointer open project mix ${project.category}">
-
-                ${project.status ? `<div class="ml-10 lg:ml-14 text-xs text-secondary flex -mt-5 mb-1 lg:mb-0 lg:absolute"><svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin-fill" viewBox="0 0 16 16"><path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354z"/></svg><span>Pinned project</span></div>` : ``}
-
-                <div class="flex mb-4 border-b-2 border-b-light lg:border-b-0">
-                    <img src="dist/img/profile.jpeg" alt="Kusuma Wecitra" class="w-8 h-8 lg:w-12 lg:h-12 rounded-full mr-3">
-                    <div class="self-center mb-5">
-                        <h1 class="font-semibold">${project.title}</h1>
-                        <span class="text-sm lg:text-base text-secondary block pr-5">${project.excerpt}</span>
-                        <span class="text-sm text-primary block mb-3">${project.tag}</span>
+            <div data-index="${i}" class="relative cursor-pointer open project mix ${project.category}">
+                <div class="mb-3 lg:mb-0 border border-light rounded-md overflow-hidden">
                         <img src="dist/img/portfolios/${project.image}" alt="${project.title}">
-                    </div>
+                        <div class="px-3 py-3">
+                            <h1 class="font-semibold">${project.title}</h1>
+                            <span class="text-sm text-primary block">${project.tag}</span>
+                        </div>
                 </div>
             </div>
-        `).join("")}
-    </div>`
+        `).join("")}`
 }
 
 mixitup('.projects', {
@@ -83,8 +78,9 @@ mixitup('.projects', {
 });
 
 $(".mixitup-filter").click(function() {
-    $(".mixitup-filter").removeClass('font-semibold border-b-2 border-b-primary');
+    $(".mixitup-filter").removeClass('text-white font-semibold bg-primary rounded-t-md');
     $(".mixitup-filter").addClass('text-secondary');
+    
     $(this).removeClass('text-secondary');
-    $(this).addClass('text-dark font-semibold border-b-2 border-b-primary');
+    $(this).addClass('text-white font-semibold bg-primary rounded-t-md');
 });
