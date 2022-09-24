@@ -95,6 +95,25 @@ export let projects = [
         tag: '#JavaScript #Bootstrap #CSS',
         category: 'dev'
     },
+    // Fashion Mobile App Designs
+    {
+        title: 'Fashion Mobile App Designs',
+        image: 'portfolio_24.png',
+        excerpt: 'Untuk membuat musik dapat dinikmati dalam keheningan jam senja dibutuhkan sebuah aplikasi pemutar musik ...',
+        tag: '#Design #UI #Figma',
+        desc: `
+                <p class="desc">E-commerce mampu merubah kebiasaan belanja konsumen dan menjadi bisnis yang menjamur karena banyak diminati. Tak heran, untuk membuat sebuah aplikasi e-commerce dibutuhkan tampilan yang menarik supaya bisa merambah lebih banyak lagi kaum shopaholic (re:gila belanja). Oleh karena itu, saya merancang desain aplikasi e-commerce ini.</p><br>
+                <p class="font-semibold">Research</p>
+                <p class="desc">Tahap pertama yang dilakukan adalah research mengenai ikon, tipografi, warna dan membuat komponen yang akan digunakan nantinya.</p><br>
+                <img src="dist/img/portfolios/portfolio_24_guide.png" alt="Fashion Mobile App Designs"><br>
+                <p class="font-semibold">Wireframes</p>
+                <p class="desc">Setelah melakukan research, tahap selanjutnya adalah membuat wireframe. Saya membuat wireframe dengan Figma.</p><br>
+                <img src="dist/img/portfolios/portfolio_24_wireframes.png" alt="Fashion Mobile App Designs"><br>
+                <p class="font-semibold">Result</p>
+                <p class="desc">Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
+            `,
+            category: 'design'
+    },
     // Musics Player Mobile Mockup
     {
         title: 'Musics Player Mobile Mockup',
@@ -209,6 +228,24 @@ export let projects = [
         category: 'dev'
     },
     {
+        title: 'Simple To Do',
+        url: 'https://doobeedoobeedam.github.io/simple-to-do-list/',
+        github: 'https://github.com/doobeedoobeedam/simple-to-do-list/',
+        image: 'portfolio_14.png',
+        excerpt: 'This To Do is built with JS & CSS.',
+        tag: '#JavaScript #CSS',
+        category: 'dev'
+    },
+    {
+        title: 'Generate Password',
+        url: 'https://doobeedoobeedam.github.io/generate-password-js/',
+        github: 'https://github.com/doobeedoobeedam/generate-password-js/',
+        image: 'portfolio_23.png',
+        excerpt: 'This project is built with JS & SASS.',
+        tag: '#JavaScript #SASS #CSS',
+        category: 'dev'
+    },
+    {
         title: 'Habits Mobile Mockup',
         url: 'https://www.figma.com/proto/U1KNM4ydys0DZwl6UJ5NOy/HabitsAppMockup?scaling=scale-down',
         image: 'portfolio_8.png',
@@ -239,15 +276,6 @@ export let projects = [
         github: 'https://github.com/doobeedoobeedam/simple-calculator/',
         image: 'portfolio_18.png',
         excerpt: 'Simple calculator made in vanilla JS and HTML.',
-        tag: '#JavaScript #CSS',
-        category: 'dev'
-    },
-    {
-        title: 'Simple To Do',
-        url: 'https://doobeedoobeedam.github.io/simple-to-do-list/',
-        github: 'https://github.com/doobeedoobeedam/simple-to-do-list/',
-        image: 'portfolio_14.png',
-        excerpt: 'This To Do is built with JS & CSS.',
         tag: '#JavaScript #CSS',
         category: 'dev'
     },
