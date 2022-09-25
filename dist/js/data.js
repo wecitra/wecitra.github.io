@@ -4,7 +4,7 @@ export let projects = [
         title: 'B-log',
         image: 'portfolio_13.png',
         excerpt: 'B-log adalah aplikasi berbasis website yang memungkinkan untuk memposting, mengedit, menyimpan dan melihat ...',
-        desc: '<p class="desc">B-log adalah aplikasi berbasis website yang memungkinkan untuk memposting, mengedit, menyimpan dan melihat postingan blog. Dibuat dalam rangka menuntaskan pembelajaran Laravel Basic.</p>',
+        desc: '<p>B-log adalah aplikasi berbasis website yang memungkinkan untuk memposting, mengedit, menyimpan dan melihat postingan blog. Dibuat dalam rangka menuntaskan pembelajaran Laravel Basic.</p>',
         tag: '#Laravel #JavaScript #Bootstrap #CSS',
         github: 'https://github.com/doobeedoobeedam/b-log',
         category: 'dev'
@@ -14,7 +14,7 @@ export let projects = [
         title: 'Warta!',
         image: 'portfolio_21.png',
         excerpt: 'Warta! adalah sistem informasi berbasis web application untuk menyampaikan sebuah laporan pengaduan ...',
-        desc: '<p class="desc">Warta! adalah sistem informasi berbasis web application untuk menyampaikan sebuah laporan pengaduan atau keluhan.</p>',
+        desc: '<p>Warta! adalah sistem informasi berbasis web application untuk menyampaikan sebuah laporan pengaduan atau keluhan.</p>',
         tag: '#Laravel #JavaScript #Tailwind #CSS',
         github: 'https://github.com/doobeedoobeedam/warta',
         category: 'dev'
@@ -26,22 +26,22 @@ export let projects = [
         image: 'portfolio_7.png',
         excerpt: 'Pande.log merupakan sebuah aplikasi berbasis website yang dibuat untuk menyelesaikan Uji Kompetensi Keahlian ...',
         desc: `
-                <p class="desc">Pande.log merupakan sebuah aplikasi berbasis website yang dibangun sebagai sistem informasi pengelolaan catatan perjalanan sehingga catatan yang ada dapat terintegrasi dengan baik. Aplikasi ini dibuat dengan menggunakan bahasa pemrograman PHP, framework Codeigniter 4 dan database MySQL.</p>
+                <p>Pande.log merupakan sebuah aplikasi berbasis website yang dibangun sebagai sistem informasi pengelolaan catatan perjalanan sehingga catatan yang ada dapat terintegrasi dengan baik. Aplikasi ini dibuat dengan menggunakan bahasa pemrograman PHP, framework Codeigniter 4 dan database MySQL.</p>
                 <br>
-                <p class="desc">Pande.log juga dibuat untuk menyelesaikan Uji Kompetensi Keahlian 2021/2022 yang diadakan oleh Konsorsium SKK BONET.</p>
+                <p>Pande.log juga dibuat untuk menyelesaikan Uji Kompetensi Keahlian 2021/2022 yang diadakan oleh Konsorsium SKK BONET.</p>
                 <br>
-                <p class="font-semibold">Level User</p>
-                <p class="desc">Terdapat dua user dalam aplikasi ini, yaitu user admin dan user general dengan pembagian privileges sebagai berikut:</p>
+                <span>Level User</span>
+                <p>Terdapat dua user dalam aplikasi ini, yaitu user admin dan user general dengan pembagian privileges sebagai berikut:</p>
                 <br>
                 <img src="dist/img/portfolios/privileges.png" alt="Pande.log">
                 <br>
-                <p class="font-semibold">Mockup</p>
-                <p class="desc">Berikut adalah rancangan mockup tampilan dari beberapa halaman di aplikasi ini, meliputi halaman signup, signin, beranda, daftar catatan, tambah catatan dan ubah catatan. Mockup ini dibuat dengan bantuan Figma.</p>
+                <span>Mockup</span>
+                <p>Berikut adalah rancangan mockup tampilan dari beberapa halaman di aplikasi ini, meliputi halaman signup, signin, beranda, daftar catatan, tambah catatan dan ubah catatan. Mockup ini dibuat dengan bantuan Figma.</p>
                 <br>
                 <img src="dist/img/portfolios/mockups.png" alt="Pande.log">
                 <br>
-                <p class="font-semibold">Result</p>
-                <p class="desc">Berikut adalah hasil akhir dari pada proyek kali ini.</p>
+                <span>Result</span>
+                <p>Berikut adalah hasil akhir dari pada proyek kali ini.</p>
             `,
         tag: '#CodeIgniter #JavaScript #Bootstrap #CSS',
         category: 'dev'
@@ -53,20 +53,20 @@ export let projects = [
         image: 'portfolio_4.png',
         excerpt: 'Bekasi City Dashboard adalah landing page yang dibuat di hari pertama saya magang di PT. Ciptadra Softindo.',
         desc: `
-            <p class="desc">Pada hari pertama magang, saya ditugaskan membuat sebuah landing page untuk Bekasi City Dashboard. Dimana tugas ini mengalami tiga kali revisi, seperti penambahan animasi, perubahan warna dan perubahan isi konten.</p>
+            <p>Pada hari pertama magang, saya ditugaskan membuat sebuah landing page untuk Bekasi City Dashboard. Dimana tugas ini mengalami tiga kali revisi, seperti penambahan animasi, perubahan warna dan perubahan isi konten.</p>
             <br>
-            <p class="desc">Supaya menghemat waktu, saya membuat landing page ini dengan Bootstrap dan AOS untuk membuat efek animasinya.</p>
+            <p>Supaya menghemat waktu, saya membuat landing page ini dengan Bootstrap dan AOS untuk membuat efek animasinya.</p>
             <br>
-            <p class="font-semibold">Research</p>
-            <p class="desc">Research adalah tahap pertama yang dilakukan dalam proses pembuatan landing page ini. Di sini saya menentukan ilustrasi, ikon, font dan memilih warna yang akan digunakan.</p>
+            <span>Research</span>
+            <p>Research adalah tahap pertama yang dilakukan dalam proses pembuatan landing page ini. Di sini saya menentukan ilustrasi, ikon, font dan memilih warna yang akan digunakan.</p>
             <img src="dist/img/portfolios/portfolio_4_guide.png" alt="Bekasi City Dashboard">
             <br>
-            <p class="font-semibold">Wireframe & Mockup</p>
-            <p class="desc">Berikutnya adalah membuat Wireframe dan Mockup. Keduanya dibuat menggunakan Figma.</p>
+            <span>Wireframe & Mockup</span>
+            <p>Berikutnya adalah membuat Wireframe dan Mockup. Keduanya dibuat menggunakan Figma.</p>
             <img src="dist/img/portfolios/portfolio_4_wireframe_mockup.png" alt="Bekasi City Dashboard">
             <br>
-            <p class="font-semibold">Result</p>
-            <p class="desc">Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
+            <span>Result</span>
+            <p>Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
         tag: '#Bootstrap #CSS',
         category: 'dev'
     },
@@ -78,20 +78,20 @@ export let projects = [
         image: 'portfolio_5.png',
         excerpt: 'Pada proyek kali ini, saya melakukan pembuatan halaman Web Hosting. Pemrograman dilakukan dengan menggunakan ...',
         desc: `
-            <p class="desc">Pada proyek kali ini, saya melakukan pembuatan halaman Web Hosting. Pemrograman dilakukan dengan menggunakan HTML, Bootstrap/CSS, dan JavaScript. Website ini juga sudah dibuat responsive di semua media platform, seperti mobile, tab dan desktop.</p>
+            <p>Pada proyek kali ini, saya melakukan pembuatan halaman Web Hosting. Pemrograman dilakukan dengan menggunakan HTML, Bootstrap/CSS, dan JavaScript. Website ini juga sudah dibuat responsive di semua media platform, seperti mobile, tab dan desktop.</p>
             <br>
-            <p class="font-semibold">Research</p>
-            <p class="desc">Research adalah tahap pertama yang dilakukan dalam proses pembuatan Web Hosting ini. Di sini saya menentukan ikon, tipografi dan memilih warna yang akan digunakan.</p>
+            <span>Research</span>
+            <p>Research adalah tahap pertama yang dilakukan dalam proses pembuatan Web Hosting ini. Di sini saya menentukan ikon, tipografi dan memilih warna yang akan digunakan.</p>
             <br>
             <img src="dist/img/portfolios/portfolio_5_guide.png" alt="Hostingin">
             <br>
-            <p class="font-semibold">Wireframe & Mockup</p>
-            <p class="desc">Berikutnya adalah membuat Wireframe dan Mockup. Keduanya dibuat menggunakan Figma.</p>
+            <span>Wireframe & Mockup</span>
+            <p>Berikutnya adalah membuat Wireframe dan Mockup. Keduanya dibuat menggunakan Figma.</p>
             <br>
             <img src="dist/img/portfolios/portfolio_5_mockup.png" alt="Hostingin">
             <br>
-            <p class="font-semibold">Result</p>
-            <p class="desc">Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
+            <span>Result</span>
+            <p>Berikut adalah hasil akhir dari pada proyek kali ini.</p>`,
         tag: '#JavaScript #Bootstrap #CSS',
         category: 'dev'
     },
@@ -102,15 +102,15 @@ export let projects = [
         excerpt: 'Untuk membuat musik dapat dinikmati dalam keheningan jam senja dibutuhkan sebuah aplikasi pemutar musik ...',
         tag: '#Design #UI #Figma',
         desc: `
-                <p class="desc">E-commerce mampu merubah kebiasaan belanja konsumen dan menjadi bisnis yang menjamur karena banyak diminati. Tak heran, untuk membuat sebuah aplikasi e-commerce dibutuhkan tampilan yang menarik supaya bisa merambah lebih banyak lagi kaum shopaholic (re:gila belanja). Oleh karena itu, saya merancang desain aplikasi e-commerce ini.</p><br>
-                <p class="font-semibold">Research</p>
-                <p class="desc">Tahap pertama yang dilakukan adalah research mengenai ikon, tipografi, warna dan membuat komponen yang akan digunakan nantinya.</p><br>
+                <p>E-commerce mampu merubah kebiasaan belanja konsumen dan menjadi bisnis yang menjamur karena banyak diminati. Tak heran, untuk membuat sebuah aplikasi e-commerce dibutuhkan tampilan yang menarik supaya bisa merambah lebih banyak lagi kaum shopaholic (re:gila belanja). Oleh karena itu, saya merancang desain aplikasi e-commerce ini.</p><br>
+                <span>Research</span>
+                <p>Tahap pertama yang dilakukan adalah research mengenai ikon, tipografi, warna dan membuat komponen yang akan digunakan nantinya.</p><br>
                 <img src="dist/img/portfolios/portfolio_24_guide.png" alt="Fashion Mobile App Designs"><br>
-                <p class="font-semibold">Wireframes</p>
-                <p class="desc">Setelah melakukan research, tahap selanjutnya adalah membuat wireframe. Saya membuat wireframe dengan Figma.</p><br>
+                <span>Wireframes</span>
+                <p>Setelah melakukan research, tahap selanjutnya adalah membuat wireframe. Saya membuat wireframe dengan Figma.</p><br>
                 <img src="dist/img/portfolios/portfolio_24_wireframes.png" alt="Fashion Mobile App Designs"><br>
-                <p class="font-semibold">Result</p>
-                <p class="desc">Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
+                <span>Result</span>
+                <p>Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
             `,
             category: 'design'
     },
@@ -121,19 +121,19 @@ export let projects = [
         excerpt: 'Untuk membuat musik dapat dinikmati dalam keheningan jam senja dibutuhkan sebuah aplikasi pemutar musik ...',
         tag: '#Design #UI #Figma',
         desc: `
-                <p class="desc">Alam, melalui semua kedalamannya, penuh dengan musik — bervariasi dalam nada dan kaya akan melodi. Untuk membuat musik dapat dinikmati dalam keheningan jam senja ; dalam suara angin sepoi-sepoi yang sejuk ; di air mancur pedalaman ; dalam riak-riak dari ambang gunung dan di pinggir laut yang ditimpa badai dibutuhkan sebuah aplikasi pemutar musik yang telah diinstal pada smartphone yang dimiliki lebih dari 83% populasi manusia. Oleh karena itu saya merancang desain aplikasi pemutar musik ini.</p>
+                <p>Alam, melalui semua kedalamannya, penuh dengan musik — bervariasi dalam nada dan kaya akan melodi. Untuk membuat musik dapat dinikmati dalam keheningan jam senja ; dalam suara angin sepoi-sepoi yang sejuk ; di air mancur pedalaman ; dalam riak-riak dari ambang gunung dan di pinggir laut yang ditimpa badai dibutuhkan sebuah aplikasi pemutar musik yang telah diinstal pada smartphone yang dimiliki lebih dari 83% populasi manusia. Oleh karena itu saya merancang desain aplikasi pemutar musik ini.</p>
                 <br>
-                <p class="font-semibold">Research</p>
-                <p class="desc">Tahap pertama yang dilakukan dalam proses desain adalah research. Di sini saya mencari ide melalui Dribbble. Kemudian menentukan ikon, tipografi dan pemilihan warna yang akan digunakan.</p>
+                <span>Research</span>
+                <p>Tahap pertama yang dilakukan dalam proses desain adalah research. Di sini saya mencari ide melalui Dribbble. Kemudian menentukan ikon, tipografi dan pemilihan warna yang akan digunakan.</p>
                 <br>
                 <img src="dist/img/portfolios/portfolio_20_guide.png" alt="Musics Player Mobile Mockup">
                 <br>
-                <p class="font-semibold">Wireframe</p>
-                <p class="desc">Setelah melakukan research, tahap selanjutnya adalah membuat wireframe. Saya membuat wireframe dengan Figma. Berikut adalah tampilan wireframe yang telah dibuat meliputi halaman home, detail playlist dan detail lagu.</p>
+                <span>Wireframe</span>
+                <p>Setelah melakukan research, tahap selanjutnya adalah membuat wireframe. Saya membuat wireframe dengan Figma. Berikut adalah tampilan wireframe yang telah dibuat meliputi halaman home, detail playlist dan detail lagu.</p>
                 <img src="dist/img/portfolios/portfolio_20_wireframes.png" alt="Musics Player Mobile Mockup">
                 <br>
-                <p class="font-semibold">Result</p>
-                <p class="desc">Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
+                <span>Result</span>
+                <p>Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
             `,
             category: 'design'
     },
