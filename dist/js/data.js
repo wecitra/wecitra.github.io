@@ -116,6 +116,14 @@ export let projects = [
     },
     // Musics Player Mobile Mockup
     {
+        title: 'Instagram Feed',
+        image: 'portfolio_25.png',
+        excerpt: 'Pentingya membuat desain feed adalah supaya memudahkan kita untuk mengetahui foto apa yang harus diletakkan di sebelah foto lain. Layout memudahkan untuk memulai konsistensi tema Instagram. Ada 9 jenis layout grid Instagram yang saya buat buat.',
+        tag: '#Design #Figma',
+        category: 'design'
+    },
+    // Musics Player Mobile Mockup
+    {
         title: 'Musics Player Mobile Mockup',
         image: 'portfolio_20.png',
         excerpt: 'Untuk membuat musik dapat dinikmati dalam keheningan jam senja dibutuhkan sebuah aplikasi pemutar musik ...',
