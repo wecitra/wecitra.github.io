@@ -58,11 +58,11 @@ export let projects = [
             <p>Supaya menghemat waktu, saya membuat landing page ini dengan Bootstrap dan AOS untuk membuat efek animasinya.</p>
             <br>
             <span>Research</span>
-            <p>Research adalah tahap pertama yang dilakukan dalam proses pembuatan landing page ini. Di sini saya menentukan ilustrasi, ikon, font dan memilih warna yang akan digunakan.</p>
+            <p>Research adalah tahap pertama yang dilakukan dalam proses pembuatan landing page ini. Di sini saya menentukan ilustrasi, ikon, font dan memilih warna yang akan digunakan.</p><br>
             <img src="dist/img/portfolios/portfolio_4_guide.png" alt="Bekasi City Dashboard">
             <br>
             <span>Wireframe & Mockup</span>
-            <p>Berikutnya adalah membuat Wireframe dan Mockup. Keduanya dibuat menggunakan Figma.</p>
+            <p>Berikutnya adalah membuat Wireframe dan Mockup. Keduanya dibuat menggunakan Figma.</p><br>
             <img src="dist/img/portfolios/portfolio_4_wireframe_mockup.png" alt="Bekasi City Dashboard">
             <br>
             <span>Result</span>
@@ -114,12 +114,26 @@ export let projects = [
             `,
             category: 'design'
     },
-    // Musics Player Mobile Mockup
+    // Instagram Feed
     {
         title: 'Instagram Feed',
         image: 'portfolio_25.png',
-        excerpt: 'Pentingya membuat desain feed adalah supaya memudahkan kita untuk mengetahui foto apa yang harus diletakkan di sebelah foto lain. Layout memudahkan untuk memulai konsistensi tema Instagram. Ada 9 jenis layout grid Instagram yang saya buat buat.',
+        excerpt: 'Pentingya membuat desain feed adalah supaya memudahkan kita untuk mengetahui foto apa yang harus diletakkan di sebelah foto lain. Layout memudahkan untuk memulai konsistensi tema Instagram. Ada 9 jenis layout grid Instagram yang saya buat.',
         tag: '#Design #Figma',
+        desc: `
+                <p>Pentingya membuat desain feed adalah supaya memudahkan kita untuk mengetahui foto apa yang harus diletakkan di sebelah foto lain. Layout memudahkan untuk memulai konsistensi tema Instagram. Ada 9 jenis layout grid Instagram yang saya buat buat.</p><br>
+                <span>Palet Warna</span>
+                <p>Saya telah memutuskan untuk menggunakan warna-warna mencolok dan saya tidak ingin itu terlihat terlalu soft, jadi saya telah memilih warna kuning yang kuat dan merah yang panas untuk menyeimbangkannya. Saya juga telah menambahkan warna hijau muda terang untuk membuat warna primer lebih lembut dan harmonis.</p>
+                <br>
+                <img src="dist/img/portfolios/portfolio_25_palet.png" alt="Instagram Feed">
+                <br>
+                <p>Untuk memastikan bahwa palet warna benar-benar berfungsi untuk saya, saya menciptakan variasi dalam palet warna yang dipilih. Berikut di antaranya.</p><br>
+                <img src="dist/img/portfolios/portfolio_25_variasi.png" alt="Instagram Feed"><br>
+                <span>Tipografi</span><br><br>
+                <img src="dist/img/portfolios/portfolio_25_tipografi.png" alt="Instagram Feed"><br>
+                <span>Tampilan Akhir</span><br>
+                <p>Akhirnya, ketika saya selesai mendesain semua elemen, saya menempatkannya di mock-up untuk melihat tampilannya. Lihat di kiri bawah ini.</p>
+        `,
         category: 'design'
     },
     // Musics Player Mobile Mockup
@@ -129,7 +143,7 @@ export let projects = [
         excerpt: 'Untuk membuat musik dapat dinikmati dalam keheningan jam senja dibutuhkan sebuah aplikasi pemutar musik ...',
         tag: '#Design #UI #Figma',
         desc: `
-                <p>Alam, melalui semua kedalamannya, penuh dengan musik — bervariasi dalam nada dan kaya akan melodi. Untuk membuat musik dapat dinikmati dalam keheningan jam senja ; dalam suara angin sepoi-sepoi yang sejuk ; di air mancur pedalaman ; dalam riak-riak dari ambang gunung dan di pinggir laut yang ditimpa badai dibutuhkan sebuah aplikasi pemutar musik yang telah diinstal pada smartphone yang dimiliki lebih dari 83% populasi manusia. Oleh karena itu saya merancang desain aplikasi pemutar musik ini.</p>
+                <p>Alam, melalui semua kedalamannya, penuh dengan musik — bervariasi dalam nada dan kaya akan melodi. Untuk membuat musik dapat dinikmati dalam keheningan jam senja; dalam suara angin sepoi-sepoi yang sejuk; di air mancur pedalaman; dalam riak-riak dari ambang gunung dan di pinggir laut yang ditimpa badai dibutuhkan sebuah aplikasi pemutar musik yang telah diinstal pada smartphone yang dimiliki lebih dari 83% populasi manusia. Oleh karena itu saya merancang desain aplikasi pemutar musik ini.</p>
                 <br>
                 <span>Research</span>
                 <p>Tahap pertama yang dilakukan dalam proses desain adalah research. Di sini saya mencari ide melalui Dribbble. Kemudian menentukan ikon, tipografi dan pemilihan warna yang akan digunakan.</p>
@@ -137,13 +151,13 @@ export let projects = [
                 <img src="dist/img/portfolios/portfolio_20_guide.png" alt="Musics Player Mobile Mockup">
                 <br>
                 <span>Wireframe</span>
-                <p>Setelah melakukan research, tahap selanjutnya adalah membuat wireframe. Saya membuat wireframe dengan Figma. Berikut adalah tampilan wireframe yang telah dibuat meliputi halaman home, detail playlist dan detail lagu.</p>
+                <p>Setelah melakukan research, tahap selanjutnya adalah membuat wireframe. Saya membuat wireframe dengan Figma. Berikut adalah tampilan wireframe yang telah dibuat meliputi halaman home, detail playlist dan detail lagu.</p><br>
                 <img src="dist/img/portfolios/portfolio_20_wireframes.png" alt="Musics Player Mobile Mockup">
                 <br>
                 <span>Result</span>
                 <p>Hasil akhir dari desain mockup pada proyek kali ini adalah sebagai berikut.</p>
-            `,
-            category: 'design'
+        `,
+        category: 'design'
     },
     // Web Visual Identity
     {
@@ -161,7 +175,7 @@ export let projects = [
         url: 'https://doobeedoobeedam.github.io/weather-web/',
         github: 'https://github.com/doobeedoobeedam/weather-web',
         image: 'portfolio_22.png',
-        excerpt: 'Weather Web with OpenWeatherMap API.',
+        excerpt: 'Weather Web\'s data is gets from <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a>, display it using a simple card and can filter the result by the location.',
         tag: '#API #JavaScript #CSS',
         category: 'dev'
     },
@@ -181,7 +195,7 @@ export let projects = [
         url: 'https://doobeedoobeedam.github.io/api-movie/',
         github: 'https://github.com/doobeedoobeedam/api-movie',
         image: 'portfolio_15.png',
-        excerpt: 'Responsive tailwind movies app.',
+        excerpt: 'This verily simple web is takes data from <a href="https://www.omdbapi.com/" target="_blank">OMDb API</a>. It can filter the result by the title of movie.',
         tag: '#API #JavaScript #Tailwind #CSS',
         category: 'dev'
     },
@@ -191,7 +205,7 @@ export let projects = [
         url: 'https://doobeedoobeedam.github.io/random-quote-generator/',
         github: 'https://github.com/doobeedoobeedam/random-quote-generator',
         image: 'portfolio_19.png',
-        excerpt: 'An API full of quotes to bring some joy to your day!',
+        excerpt: 'An Web full of quotes to bring some joy to your day! Its data from type.fit API!',
         tag: '#API #JavaScript #CSS',
         category: 'dev'
     },
@@ -211,7 +225,7 @@ export let projects = [
         url: 'https://doobeedoobeedam.github.io/joke-maker/',
         github: 'https://github.com/doobeedoobeedam/joke-maker/',
         image: 'portfolio_11.png',
-        excerpt: 'Simple project built with API, JS & CSS.',
+        excerpt: `I decided to build a very simple project with Api, JavaScript & CSS. I got the joke from <a href="https://icanhazdadjoke.com/" target="_blank">icanhazdadjoke.com</a>, no authentication is required to use it 🙂`,
         tag: '#API #JavaScript #CSS',
         category: 'dev'
     },
@@ -300,7 +314,7 @@ export let experiences = [
         where: 'PT. Ciptadra Soft',
         proof: '',
         what: 'Web Developer Intern',
-        detail: 'Assisted in the development of web and mobile design pages and monitored application development with quality control.',
+        detail: `I do the cool things such as developed a web and mobile page designs, entry data to CMS, developed a web application with CodeIgniter and testing the result of application.`,
     },
     // UI/UX Fundamentals - camp404
     {

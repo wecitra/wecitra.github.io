@@ -5,12 +5,12 @@ import { experiences } from './data.js';
 
 // Experiences
 experiences.map((experience) => { $("#experiences").append(`
-    <div class="experience flex mb-4 [&>*>span]:text-secondary">
-        <img src="dist/img/tag.png" alt="Experience" class="w-6 h-6 rounded-full mr-3 bg-primary mt-2">
+    <div class="experience flex mb-4">
+        <span class="mr-4 mt-4 font-bold text-primary">#</span>
         <div class="self-center mb-3">
-            <span class="text-xs">${experience.when} • <a href="${experience.proof}" class="text-primary">${experience.where}</a></span>
-            <h1 class="font-semibold text-sm text-dark dark:text-soft">${experience.what}</h1>
-            ${experience.detail ? `<span class="text-sm text-justify text-soft">${experience.detail}</span>` : ''}
+            <span class="text-xs text-secondary">${experience.when} • <a href="${experience.proof}" class="text-primary">${experience.where}</a></span>
+            <h1 class="font-bold text-sm text-dark dark:text-soft">${experience.what}</h1>
+            ${experience.detail ? `<span class="text-sm font-extralight text-secondary dark:text-soft">${experience.detail}</span>` : ''}
         </div>
     </div>`);
 });
@@ -40,9 +40,9 @@ function openModal(index) {
 function updateDialog(project) {
     $(".dialog").html(`
         <h1 class="text-xl lg:text-2xl font-semibold -mb-3 text-primary">${project.title}</h1>
-        <div class="mb-4 [&>p]:text-secondary [&>p]:dark:text-soft [&>p]:text-sm [&>p]:lg:text-base [&>span]:font-semibold [&>span]:text-dark [&>span]:dark:text-primary [&>p]:tracking-wide">
-        
-        ${project.desc ? project.desc : `<p class="desc">${project.excerpt}</p>`}</div>
+        <div class="mb-4 [&>p]:text-secondary [&>p]:dark:text-soft [&>p]:text-sm [&>p]:lg:text-base [&>span]:font-semibold [&>span]:text-dark [&>span]:dark:text-primary [&>p]:tracking-wide [&>a]:text-primary">
+            ${project.desc ? project.desc : `<p class="desc [&>a]:text-primary">${project.excerpt}</p>`}
+        </div>
 
         <img src="dist/img/portfolios/${project.image}" alt="${project.title}">
 
