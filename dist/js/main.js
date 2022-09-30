@@ -8,9 +8,9 @@ experiences.map((experience) => { $("#experiences").append(`
     <div class="experience flex mb-4">
         <span class="mr-4 mt-4 font-bold text-primary">#</span>
         <div class="self-center mb-3">
-            <span class="text-xs text-secondary">${experience.when} • <a href="${experience.proof}" class="text-primary">${experience.where}</a></span>
-            <h1 class="font-bold text-sm text-dark dark:text-soft">${experience.what}</h1>
-            ${experience.detail ? `<span class="text-sm font-extralight text-secondary dark:text-soft">${experience.detail}</span>` : ''}
+            <span class="text-xs text-secondary dark:text-soft">${experience.when} • <a href="${experience.proof}" class="text-primary">${experience.where}</a></span>
+            <h1 class="font-semibold text-[14px] text-dark dark:text-primary">${experience.what}</h1>
+            ${experience.detail ? `<span class="text-sm lg:text-md text-secondary dark:text-soft">${experience.detail}</span>` : ''}
         </div>
     </div>`);
 });
