@@ -3,12 +3,25 @@ skills.map((skill) => { $("#skills").append(`<span>${skill}</span>`); });
 
 import { experiences } from './data.js';
 
-// Experiences
-experiences.map((experience) => { $("#experiences").append(`
+experiences[0].map((experience) => { 
+    $("#work-experience").append(`
     <div class="experience flex mb-4">
         <span class="mr-4 mt-4 font-bold text-primary">#</span>
-        <div class="self-center mb-3">
-            <span class="text-xs text-secondary dark:text-soft">${experience.when} • <a href="${experience.proof}" class="text-primary">${experience.where}</a></span>
+        <div class="self-center">
+            <span class="text-xs text-secondary dark:text-soft">${experience.when} •
+            ${experience.proof ? `<a href="${experience.proof}" class="text-primary">${experience.where}</a>` : `<span class="text-primary">${experience.where}</span>`} </span>
+            <h1 class="font-semibold text-[14px] text-dark dark:text-primary">${experience.what}</h1>
+            ${experience.detail ? `<span class="text-sm lg:text-md text-secondary dark:text-soft">${experience.detail}</span>` : ''}
+        </div>
+    </div>`);
+});
+
+experiences[1].map((experience) => { 
+    $("#course-experience").append(`
+    <div class="experience flex mb-4">
+        <span class="mr-4 mt-4 font-bold text-primary">#</span>
+        <div class="self-center">
+            <span class="text-xs text-secondary dark:text-soft">${experience.when} • ${experience.proof ? `<a href="${experience.proof}" class="text-primary">${experience.where}</a>` : `<span class="text-primary">${experience.where}</span>`} </span>
             <h1 class="font-semibold text-[14px] text-dark dark:text-primary">${experience.what}</h1>
             ${experience.detail ? `<span class="text-sm lg:text-md text-secondary dark:text-soft">${experience.detail}</span>` : ''}
         </div>

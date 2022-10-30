@@ -307,15 +307,9 @@ export let skills = [
     'Desain UI', 'HTML', 'CSS', 'Sass', 'Bootstrap', 'Tailwind', 'JavaScript', 'DOM', 'Git', 'SQL', 'OOP', 'MVC', 'CodeIgniter', 'Laravel'
 ];
 
-export let experiences = [
-    // Intern
-    {
-        when: 'November 2021 - April 2022',
-        where: 'PT. Ciptadra Soft',
-        proof: '',
-        what: 'Web Developer Intern',
-        detail: `I do the cool things such as developed a web and mobile page designs, entry data to CMS, developed a web application with CodeIgniter and testing the result of application.`,
-    },
+export let experiences = [];
+
+let courses = [
     // UI/UX Fundamentals - camp404
     {
         when: 'September 2022',
@@ -372,3 +366,22 @@ export let experiences = [
         what: 'Responsive Web Design Course'
     },
 ]
+
+let works = [
+    {
+        when: 'October 2022 - present',
+        where: 'PT La Monte',
+        what: 'Web Editor / Admin',
+        detail: `Created, wrote, edited product content incorporating strategic placement of keywords and keyword phrases, distributed product content to social media and responded to daily comments.`,
+    },
+    // Intern
+    {
+        when: 'November 2021 - April 2022',
+        where: 'PT Ciptadra Soft',
+        what: 'Web Developer Intern',
+        detail: `I do the cool things such as developed a web and mobile page designs, entry data to CMS, developed a web application with CodeIgniter and testing the result of application.`,
+    },
+]
+
+experiences.unshift(courses);
+experiences.unshift(works);
