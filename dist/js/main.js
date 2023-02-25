@@ -8,8 +8,10 @@ experiences[0].map((experience) => {
     <div class="experience flex mb-4">
         <span class="mr-4 mt-4 font-bold text-primary">#</span>
         <div class="self-center">
-            <span class="text-xs text-secondary dark:text-soft">${experience.when} •
-            ${experience.proof ? `<a href="${experience.proof}" class="text-primary">${experience.where}</a>` : `<span class="text-primary">${experience.where}</span>`} </span>
+            <span class="text-xs text-secondary dark:text-soft">${experience.when} 
+                ${experience.proof ? `<a href="${experience.proof}" class="text-primary"></a>` : '' }
+                ${experience.where ? `<span class="text-primary">• ${experience.where}</span>` : ''}
+            </span>
             <h1 class="font-semibold text-[14px] text-dark dark:text-primary">${experience.what}</h1>
             ${experience.detail ? `<span class="text-sm lg:text-md text-secondary dark:text-soft">${experience.detail}</span>` : ''}
         </div>
@@ -18,10 +20,13 @@ experiences[0].map((experience) => {
 
 experiences[1].map((experience) => { 
     $("#course-experience").append(`
-    <div class="experience flex mb-4">
-        <span class="mr-4 mt-4 font-bold text-primary">#</span>
-        <div class="self-center">
-            <span class="text-xs text-secondary dark:text-soft">${experience.when} • ${experience.proof ? `<a href="${experience.proof}" class="text-primary">${experience.where}</a>` : `<span class="text-primary">${experience.where}</span>`} </span>
+        <div class="experience flex mb-4">
+            <span class="mr-4 mt-4 font-bold text-primary">#</span>
+            <div class="self-center">
+                <span class="text-xs text-secondary dark:text-soft">${experience.when} 
+                    ${experience.proof ? `<a href="${experience.proof}" class="text-primary"></a>` : '' }
+                    ${experience.where ? `<span class="text-primary">• ${experience.where}</span>` : ''}
+                </span>
             <h1 class="font-semibold text-[14px] text-dark dark:text-primary">${experience.what}</h1>
             ${experience.detail ? `<span class="text-sm lg:text-md text-secondary dark:text-soft">${experience.detail}</span>` : ''}
         </div>

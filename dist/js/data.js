@@ -370,7 +370,6 @@ let courses = [
 let works = [
     {
         when: 'October 2022 - present',
-        where: 'PT La Monte',
         what: 'Web Editor / Admin',
         detail: `Created, wrote, edited product content incorporating strategic placement of keywords and keyword phrases, distributed product content to social media and responded to daily comments.`,
     },
