@@ -3,19 +3,35 @@ module.exports = {
   darkMode: 'class',
   content: ["./*{html,js}", "./dist/**/*{html,js}"],
   theme: {
-    extend: {},
-    colors: {
-      'white': '#ffffff',
-      'primary': '#31C3C3',
-      'secondary': '#666666',
-      'light': '#F3F3F3',
-      'soft': '#C2C2C2',
-      'soft-dark': '#1F2937',
-      'dark': '#15202B',
+    extend: {
+      fontFamily: {
+        'chivo': ['Chivo', 'sans-serif']
+      },
     },
-    letterSpacing: {
-      wide: '.020em',
-    }
+    patterns: {
+      opacities: {
+          100: "1",
+          80: ".80",
+          60: ".60",
+          40: ".40",
+          20: ".20",
+          10: ".10",
+          5: ".05",
+      },
+      sizes: {
+          1: "0.25rem",
+          2: "0.5rem",
+          4: "1rem",
+          6: "1.5rem",
+          8: "2rem",
+          16: "4rem",
+          20: "5rem",
+          24: "6rem",
+          32: "8rem",
+      }
+  }
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-bg-patterns'),
+  ],
 }
