@@ -304,50 +304,66 @@ export let projects = [
 ];
 
 export let skills = [
-    'Desain UI', 'HTML', 'CSS', 'Sass', 'Bootstrap', 'Tailwind', 'JavaScript', 'DOM', 'Git', 'SQL', 'OOP', 'MVC', 'CodeIgniter', 'Laravel'
+    'Design', 'HTML', 'CSS', 'Sass', 'Bootstrap', 'Tailwind', 'JavaScript', 'DOM', 'Git', 'SQL', 'OOP', 'MVC', 'CodeIgniter', 'Laravel'
 ];
 
-export let experiences = [];
-
-let courses = [
+export let courses = [
+    // React Native Mobile Programming - camp404
+    {
+        when: 'On going',
+        where: 'Camp 404',
+        what: 'React Native Mobile Programming',
+    },
+    // CodeIgniter 4 Web Programming' - camp404
+    {
+        when: 'On going',
+        where: 'Camp 404',
+        what: 'CodeIgniter 4 Web Programming',
+    },
+    // UI/UX Web and Mobile Design - camp404
+    {
+        when: 'On going',
+        where: 'Camp 404',
+        what: 'UI/UX Web and Mobile Design',
+    },
     // UI/UX Fundamentals - camp404
     {
         when: 'September 2022',
         where: 'Camp 404',
         proof: 'dist/img/experiences/UI UX Design Fundamentals - Camp 404.pdf',
-        what: 'UI/UX Fundamentals Course',
-        detail: 'This hands-on course examines how content is organized and structured to create an experience for a user, and what role the designer plays in creating and shaping user experience.'
+        what: 'UI/UX Fundamentals',
+        detail: 'Completed UI/UX Fundamentals course, gaining expertise in user-centered design principles and prototyping techniques.'
     },
     // Web Development Fundamentals - SoloLearn
     {
         when: 'August 2022',
         where: 'SoloLearn',
         proof: 'dist/img/experiences/Web Development Fundamentals - SoloLearn.pdf',
-        what: 'Web Development Fundamentals Course',
-        detail: 'The Web Development Fundamentals course covers the basic technologies needed to build web pages, including HTML, CSS, and JavaScript.'
+        what: 'Web Development Fundamentals',
+        detail: 'Completed Web Development Fundamentals course to strengthen skills in building responsive and user-friendly websites.'
     },
     // jQuery - SoloLearn
     {
         when: 'August 2022',
         where: 'SoloLearn',
         proof: 'dist/img/experiences/jQuery Course - SoloLearn.pdf',
-        what: 'jQuery Course',
-        detail: 'Learn all the core features of jQuery, including how to make websites more interactive, creating effects and animations, handling events, and more!',
+        what: 'jQuery',
+        detail: 'Completed jQuery course to enhance proficiency in JavaScript and front-end web development.',
     },
     // Responsive Web Design - SoloLearn
     {
         when: 'August 2022',
         where: 'SoloLearn',
         proof: 'dist/img/experiences/Responsive Web Design Course - SoloLearn.pdf',
-        what: 'Responsive Web Design Course',
-        detail: 'The practice of building websites that can adapt to every device and every screen size.',
+        what: 'Responsive Web Design',
+        detail: 'Completing a comprehensive course on creating adaptable and user-friendly websites.',
     },
     // CSS - SoloLearn
     {
         when: 'August 2022',
         where: 'SoloLearn',
         proof: 'dist/img/experiences/CSS Course - SoloLearn.pdf',
-        what: 'CSS Course',
+        what: 'CSS',
         detail: 'This CSS course teach me how to control the style & layout of websites, completed a series of exercises and practice.',
     },
     // HTML - SoloLearn
@@ -355,32 +371,15 @@ let courses = [
         when: 'August 2022',
         where: 'SoloLearn',
         proof: 'dist/img/experiences/HTML Course - SoloLearn.pdf',
-        what: 'HTML Course',
-        detail: 'This course teach me how to design a web page using HTML.',
+        what: 'HTML',
+        detail: 'Acquired proficiency in HTML, enabling me to create dynamic and interactive webpages.',
     },
     // Responsive Web Design - Freecodecamp
     {
         when: 'July 2021',
         where: 'Freecodecamp',
         proof: 'https://www.freecodecamp.org/certification/citracoz/responsive-web-design',
-        what: 'Responsive Web Design Course'
+        what: 'Responsive Web Design',
+        detail: 'The practice of building websites that can adapt to every device and every screen size.'
     },
 ]
-
-let works = [
-    {
-        when: 'October 2022 - Apr 2023',
-        what: 'Web Editor / Admin',
-        detail: `Created, wrote, edited product content incorporating strategic placement of keywords and keyword phrases, distributed product content to social media and responded to daily comments.`,
-    },
-    // Intern
-    {
-        when: 'November 2021 - April 2022',
-        where: 'PT Ciptadra Soft',
-        what: 'Web Developer Intern',
-        detail: `I do the cool things such as developed a web and mobile page designs, entry data to CMS, developed a web application with CodeIgniter and testing the result of application.`,
-    },
-]
-
-experiences.unshift(courses);
-experiences.unshift(works);

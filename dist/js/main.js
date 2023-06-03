@@ -1,34 +1,19 @@
 import { skills } from './data.js';
 skills.map((skill) => { $("#skills").append(`<span>${skill}</span>`); });
 
-import { experiences } from './data.js';
+import { courses } from './data.js';
 
-experiences[0].map((experience) => { 
-    $("#work-experience").append(`
-    <div class="experience flex mb-4">
-        <span class="mr-4 mt-4 font-bold text-primary">#</span>
-        <div class="self-center">
-            <span class="text-xs text-secondary dark:text-soft">${experience.when} 
-                ${experience.proof ? `<a href="${experience.proof}" class="text-primary"></a>` : '' }
-                ${experience.where ? `<span class="text-primary">• ${experience.where}</span>` : ''}
-            </span>
-            <h1 class="font-semibold text-[14px] text-dark dark:text-primary">${experience.what}</h1>
-            ${experience.detail ? `<span class="text-sm lg:text-md text-secondary dark:text-soft">${experience.detail}</span>` : ''}
-        </div>
-    </div>`);
-});
-
-experiences[1].map((experience) => { 
+courses.map((course) => { 
     $("#course-experience").append(`
         <div class="experience flex mb-4">
             <span class="mr-4 mt-4 font-bold text-primary">#</span>
             <div class="self-center">
-                <span class="text-xs text-secondary dark:text-soft">${experience.when} 
-                    ${experience.proof ? `<a href="${experience.proof}" class="text-primary"></a>` : '' }
-                    ${experience.where ? `<span class="text-primary">• ${experience.where}</span>` : ''}
+                <span class="text-xs text-secondary dark:text-soft">${course.when} 
+                    ${course.proof ? `<a href="${course.proof}" class="text-primary"></a>` : '' }
+                    ${course.where ? `<span class="text-primary">• ${course.where}</span>` : ''}
                 </span>
-            <h1 class="font-semibold text-[14px] text-dark dark:text-primary">${experience.what}</h1>
-            ${experience.detail ? `<span class="text-sm lg:text-md text-secondary dark:text-soft">${experience.detail}</span>` : ''}
+            <h1 class="font-semibold text-[14px] text-dark dark:text-primary">${course.what}</h1>
+            ${course.detail ? `<span class="text-sm lg:text-md text-secondary dark:text-soft text-justify">${course.detail}</span>` : ''}
         </div>
     </div>`);
 });
