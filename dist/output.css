@@ -431,15 +431,15 @@ video {
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-  background: #DE2FA3;
+  background: #769CFF;
   /* border-radius: 0.375rem; */
-  border: 3px solid #DE2FA3;
+  border: 3px solid #769CFF;
 }
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #DE2FA3;
+  background: #769CFF;
 }
 
 *, ::before, ::after {
@@ -869,7 +869,7 @@ video {
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(222 47 163 / var(--tw-bg-opacity));
+  background-color: rgb(118 156 255 / var(--tw-bg-opacity));
 }
 
 .bg-light {
@@ -903,8 +903,8 @@ video {
   background-attachment: fixed;
 }
 
-.bg-right-top {
-  background-position: right top;
+.bg-top {
+  background-position: top;
 }
 
 .bg-no-repeat {
@@ -993,7 +993,7 @@ video {
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(222 47 163 / var(--tw-text-opacity));
+  color: rgb(118 156 255 / var(--tw-text-opacity));
 }
 
 .text-dark {
@@ -1057,7 +1057,7 @@ video {
 
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(222 47 163 / var(--tw-text-opacity));
+  color: rgb(118 156 255 / var(--tw-text-opacity));
 }
 
 .dark .dark\:border-0 {
@@ -1105,7 +1105,7 @@ video {
 
 .dark .dark\:text-primary {
   --tw-text-opacity: 1;
-  color: rgb(222 47 163 / var(--tw-text-opacity));
+  color: rgb(118 156 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
@@ -1239,7 +1239,7 @@ video {
 
 .\[\&\>a\]\:text-primary>a {
   --tw-text-opacity: 1;
-  color: rgb(222 47 163 / var(--tw-text-opacity));
+  color: rgb(118 156 255 / var(--tw-text-opacity));
 }
 
 .\[\&\>\*\>svg\]\:text-secondary>*>svg {
@@ -1266,7 +1266,7 @@ video {
 
 .\[\&\>\*\]\:bg-primary>* {
   --tw-bg-opacity: 1;
-  background-color: rgb(222 47 163 / var(--tw-bg-opacity));
+  background-color: rgb(118 156 255 / var(--tw-bg-opacity));
 }
 
 .\[\&\>\*\]\:px-3>* {
@@ -1343,7 +1343,7 @@ video {
 
 .dark .\[\&\>span\]\:dark\:text-primary>span {
   --tw-text-opacity: 1;
-  color: rgb(222 47 163 / var(--tw-text-opacity));
+  color: rgb(118 156 255 / var(--tw-text-opacity));
 }
 
 .\[\&\>a\>svg\]\:mr-3>a>svg {
@@ -1373,7 +1373,7 @@ video {
 
 .\[\&\>button\]\:bg-primary>button {
   --tw-bg-opacity: 1;
-  background-color: rgb(222 47 163 / var(--tw-bg-opacity));
+  background-color: rgb(118 156 255 / var(--tw-bg-opacity));
 }
 
 .\[\&\>button\]\:px-4>button {

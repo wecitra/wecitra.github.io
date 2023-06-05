@@ -23,13 +23,13 @@
 
     /* Handle */
     ::-webkit-scrollbar-thumb {
-        background: #DE2FA3;
+        background: #769CFF;
         /* border-radius: 0.375rem; */
-        border: 3px solid #DE2FA3;
+        border: 3px solid #769CFF;
     }
 
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-        background: #DE2FA3;
+        background: #769CFF;
     }
 }
