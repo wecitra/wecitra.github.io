@@ -308,11 +308,11 @@ export let skills = [
 ];
 
 export let courses = [
-    // React Native Mobile Programming - camp404
+    // PI
     {
         when: 'On going',
-        where: 'Camp 404',
-        what: 'React Native Mobile Programming',
+        where: 'Perempuan Inovasi',
+        what: 'Full Stack Web Development',
     },
     // CodeIgniter 4 Web Programming' - camp404
     {
