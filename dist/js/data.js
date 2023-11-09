@@ -314,18 +314,6 @@ export let courses = [
         where: 'Perempuan Inovasi',
         what: 'Full Stack Web Development',
     },
-    // CodeIgniter 4 Web Programming' - camp404
-    {
-        when: 'On going',
-        where: 'Camp 404',
-        what: 'CodeIgniter 4 Web Programming',
-    },
-    // UI/UX Web and Mobile Design - camp404
-    {
-        when: 'On going',
-        where: 'Camp 404',
-        what: 'UI/UX Web and Mobile Design',
-    },
     // UI/UX Fundamentals - camp404
     {
         when: 'September 2022',
