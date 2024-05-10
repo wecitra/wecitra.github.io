@@ -1,9 +1,11 @@
-const pupils = document.querySelectorAll(".eye .pupil");
-window.addEventListener("mousemove", (e) => {
-    pupils.forEach((pupil) => {
-        var rect = pupil.getBoundingClientRect();
-        var x = (e.pageX - rect.left) / 30 + "px";
-        var y = (e.pageY - rect.top) / 30 + "px";
-        pupil.style.transform = "translate3d(" + x + "," + y + ", 0px)";
-    });
-});
+Promise.all([fetch('https://65f8066fb4f842e80886a484.mockapi.io/api/v1/projects'),fetch('https://65f8066fb4f842e80886a484.mockapi.io/api/v1/profiles')]).then(responses=>Promise.all(responses.map(response=>response.json()))).then(([projects,profiles])=>{const displayError=document.getElementById('display-error');displayError.style.display='none';const projectsContainer=document.getElementById('projects-container');projects.sort((a,b)=>b.info.year-a.info.year);projects.forEach(project=>{const projectDiv=document.createElement('div');projectDiv.classList.add('project');projectDiv.innerHTML=`
+            <a ${project.linkDemo ? `href="${project.linkDemo}" target="_blank"` : 'disabled'} class="text-decoration-none text-dark">
+                <div class="col">
+                    <div class="card border-0 bg-transparent">
+                        <img src="images/${project.projectImg}" class="card-img-top rounded-0 mb-3" alt="${project.projectName}" />
+                        <h6 class="card-title fw-bold text-uppercase">${project.projectName} ─</h6>
+                        <p class="card-text text-uppercase font-xs">${project.info.year} / ${project.info.stack.join(' / ')}</p>
+                    </div>
+                </div>
+            </a>
+        `;projectsContainer.appendChild(projectDiv)});const github=document.getElementById('github');const mail=document.getElementById('mail');const nickname=document.getElementById('nickname');const nameTitle=document.querySelector('title.name');const nameElement=document.querySelector('span.name');github.href=`https://github.com/${profiles[0].github}`;mail.href=`mailto:${profiles[0].mail}`;nickname.textContent=profiles[0].nickname;nameTitle.textContent=profiles[0].name;nameElement.textContent=profiles[0].name}).catch(error=>{console.error('Error fetching data:',error);const displayData=document.getElementById('display-data');displayData.style.display='none';const displayError=document.getElementById('display-error');displayError.style.display='table';const errorImage=document.createElement('img');errorImage.src='images/error.png';errorImage.alt='Whoopsie';displayError.appendChild(errorImage);const errorMessage=document.createElement('h3');errorMessage.textContent='Whoopsie! Data was not found! I am too tired to load the data.';errorMessage.innerHTML+='<br>Please check back soon or report to <a class="text-dark text-decoration-none" href="mailto:wecitra49@gmail.com">Citra</a> 😭🙏';displayError.appendChild(errorMessage)})
