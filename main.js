@@ -3,7 +3,7 @@ function showProjectDetails(title, projectDocs, demoLink) {
         window.location.href = demoLink;
     } else {
         $("#projectModalLabel").text(title);
-        $("#pdfIframe").attr("src", "assets/docs/" + projectDocs);
+        $("#pdfIframe").attr("src", "assets/docs/" + projectDocs + "#toolbar=0");
         $("#projectModal").modal("show");
     }
 }
