@@ -16,7 +16,7 @@ fetch("https://65f8066fb4f842e80886a484.mockapi.io/api/v1/projects")
         const displayError = $("#display-error");
         displayError.css("display", "none");
         const projectsContainer = $("#projects-container");
-        projects.sort((a, b) => b.info.year - a.info.year);
+        projects.reverse().sort((a, b) => b.info.year - a.info.year);
         projects.forEach((project) => {
             const projectDiv = $("<div>").addClass("project");
             projectDiv.html(
