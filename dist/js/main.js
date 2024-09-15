@@ -21,11 +21,6 @@ courses.map((course) => {
 import { projects } from './data.js';
 $("#all-projects").html(showProjects(projects));
 
-ScrollReveal().reveal('#skills span', { interval: 100, reset: true });
-ScrollReveal().reveal('.img-profile, #switch-theme', { rotate: {x: 45, y: 45, z: 0 }, duration: 1000, reset: true });
-ScrollReveal().reveal(`.open`, { origin: 'left', distance: '30px', duration: 1000, reset: true});
-ScrollReveal().reveal(`.experience`, { origin: 'right', distance: '30px', interval: 100, reset: true});
-
 $(".open").click(function () { openModal($(this).data('index')); });
 
 function openModal(index) {
@@ -74,8 +69,7 @@ function showProjects(projects) {
 }
 
 mixitup('.projects', {
-    selectors: { target: '.project' },
-    animation: { duration: 300 }
+    selectors: { target: '.project' }
 });
 
 $(".mixitup-filter").click(function() {
