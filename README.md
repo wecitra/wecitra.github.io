@@ -1,5 +1,8 @@
-### Citra's personal website ς(>‿<.)
+### Citra's Personal Site Universe 🪐
 
-[🎈] I have a lot of inspiration and ideas for portfolio design. This repository contains my portfolios with different themes, layouts, colors, and designs that I've worked on.
+Welcome to my personal archive! Repositori ini jadi tempat mendokumentasikan creative journeys-ku di dunia web development. I'm a fan of experimenting! Suka banget nyobain berbagai layout dan tema baru buat personal website-ku. 
 
-Explore the live demo of my portfolio here 👉 [wecitra.github.io](https://wecitra.github.io)
+Live demo here: 
+👉 [wecitra.github.io](https://wecitra.github.io)
+
+Tararengkyu 💚
